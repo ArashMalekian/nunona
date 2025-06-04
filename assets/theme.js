@@ -8010,7 +8010,6 @@ function formatProductTitles() {
   });
 }
 
-// استایل‌های ضروری را مستقیماً inject می‌کنیم
 const style = document.createElement('style');
 style.textContent = `
   .product-name {
@@ -8030,30 +8029,24 @@ style.textContent = `
 `;
 document.head.insertBefore(style, document.head.firstChild);
 
-// چهار لایه مختلف برای اطمینان از اجرا
 function init() {
   formatProductTitles();
   
-  // 1. برای محتوای داینامیک Shopify
   if (typeof Shopify !== 'undefined') {
     document.addEventListener('shopify:section:load', formatProductTitles);
   }
   
-  // 2. MutationObserver برای تغییرات DOM
   if (window.MutationObserver) {
     new MutationObserver(formatProductTitles)
       .observe(document.body, {childList: true, subtree: true});
   }
   
-  // 3. برای صفحاتی که با تاخیر لود می‌شوند
   setTimeout(formatProductTitles, 500);
   
-  // 4. برای AJAX و سایر تغییرات
   document.addEventListener('DOMContentLoaded', formatProductTitles);
   window.addEventListener('load', formatProductTitles);
 }
 
-// اجرای اصلی
 if (document.readyState === 'complete') {
   init();
 } else {
