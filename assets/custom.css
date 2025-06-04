@@ -189,8 +189,10 @@
     padding-top: 0 !important;
     display: block !important;
 }
+.rb-sticky-container[data-v-7053f9]{
+    min-height: 53px !important;
 }
-
+}
 @media screen and (min-width: 768px) {
     .image-with-text .padded-block {
         padding: 8rem 2rem;
