@@ -1,0 +1,287 @@
+<div id="section-id-{{ section.id }}"
+     data-section-type="testimonials"
+     class="half-gutter section-wrap section-spacing {{ section.settings.testimonials_class }} {% if section.settings.alternate_bg_color %}use-alt-bg{% endif %}" data-cc-animate>
+  {% assign no_images = true %}
+  {%- for block in section.blocks -%}
+    {% if block.settings.image1 != blank %}
+      {% assign no_images = false %}
+    {% endif %}
+  {%- endfor -%}
+
+  {% if section.settings.title != blank %}
+    <div class="container container--large align-center">
+      {% if section.settings.pre_heading %}
+      <div class="pre-heading">{{ section.settings.pre_heading }}</div>
+      {% endif %}
+      <div class="section-heading section-heading--with-spacing {% if no_images %}centered{% endif %}" data-cc-animate>
+        <h2 class="h2">{{ section.settings.title | escape }}</h2>
+      </div>
+    </div>
+  {% endif %}
+
+{%- capture style_vars -%}
+  --img_max_width: {{ section.settings.img_max_width }}px;
+{%- endcapture -%}
+  <div class="container container-testimonials container--large">
+
+    <div class="testimonials-swiper"
+      style="{{ style_vars }}"
+      x-data="TestimonialsCarousel" x-init="mounted"
+      data-auto_play="{{ section.settings.auto_play }}"
+      data-show_arrows="{{ section.settings.show_arrows }}"
+      data-slides_per_view="{{ section.settings.slides_per_view }}"
+      data-slides_per_view_desk="{{ section.settings.slides_per_view_desk }}">
+      <div class="swiper-wrapper">
+        {%- for block in section.blocks -%}
+          {% assign image1 = block.settings.image1 %}
+          {% assign image1_caption = block.settings.image1_caption %}
+    
+          <div class="swiper-slide">
+            <div class="cc-testimonial
+              cc-testimonial--align-center
+              cc-testimonial-column-{{ section.settings.image_position }}
+              "
+              {{ block.shopify_attributes }}
+                data-scrollax-parent="true">
+      
+              {% if image1 != blank %}
+                <div class="cc-testimonial__column cc-testimonial__column-image">
+                  <figure class="cc-testimonial__image-with-caption">
+                    <div class="cc-testimonial__image-wrapper">
+                      <div>
+                        <img src="{{ image1 |  image_url: width: 600 }}" alt="{{ image1.alt }}" />
+                        {% comment %} {%- render 'responsive-image', image: image1 -%} {% endcomment %}
+                      </div>
+                    </div>
+      
+                    {% if image1_caption != blank %}
+                      <figcaption class="cc-testimonial__image-with-caption__caption">
+                        {{ image1_caption }}
+                      </figcaption>
+                    {% endif %}
+                  </figure>
+                </div>
+              {% endif %}
+      
+              <div class="cc-testimonial__column cc-testimonial__column-content">
+                <div class="cc-testimonial__content overlay-type">
+                  {%- if block.settings.star_rating > 0 -%}
+                    <div class="cc-testimonial__star-rating" data-cc-animate="cc-fade-in-up">
+                      {%- for i in (1..block.settings.star_rating) -%}
+                      <span class="cc-testimonial__star">{% render 'svg-star' %}</span>
+                      {%- endfor -%}
+                    </div>
+                  {%- endif -%}
+      
+                  {%- if block.settings.title != blank -%}
+                    <h3 class="line-2" data-cc-animate-x="cc-fade-in-up">
+                      {{ block.settings.title | newline_to_br }}
+                    </h3>
+                  {%- endif -%}
+      
+                  {%- if block.settings.text != blank -%}
+                    <div class="rte line-2" data-cc-animate-x="cc-fade-in-up">
+                      {{ block.settings.text }}
+                    </div>
+                  {%- endif -%}
+      
+                  {% if block.settings.button_label != blank %}
+                    <div class="button-row" data-cc-animate-x="cc-fade-in-up">
+                      <a data-cc-animate-click
+                        class="overlay-type-ignore {% if section.settings.button_style == 'link' %}link-display {% else %}button {% if section.settings.button_style == 'secondary' %}alt{% endif %}{% endif %}"
+                        href="{{ block.settings.link }}">
+                        {{ block.settings.button_label | escape }}
+                      </a>
+                    </div>
+                  {% endif %}
+                </div>      
+              </div>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+
+      {% if section.settings.show_arrows %}
+        <div class="swiper-btn swiper-button-next">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.0500488" y="59.4678" width="59.05" height="59.05" rx="29.525" transform="rotate(-90 0.0500488 59.4678)" fill="#B9C064"/><g clip-path="url(#clip0_223_904)"><path d="M18.8267 29.998L40.3828 29.998" stroke="#0E1D27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M34.5792 24.1946L40.3828 29.9982L34.5792 35.8018" stroke="#0E1D27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_223_904"><rect width="25" height="25" fill="white" transform="translate(17.075 42.4429) rotate(-90)"/></clipPath></defs></svg>
+        </div>
+        <div class="swiper-btn swiper-button-prev">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="59.05" height="59.05" rx="29.525" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 59.05 59.4678)" fill="#B9C064"/><g clip-path="url(#clip0_223_905)"><path d="M40.2733 29.998L18.7172 29.998" stroke="#0E1D27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24.5207 24.1946L18.7172 29.9982L24.5207 35.8018" stroke="#0E1D27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_223_905"><rect width="25" height="25" fill="white" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 42.025 42.4429)"/></clipPath></defs></svg>
+        </div>
+      {% endif %}
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Testimonials",
+    "class": "section-testimonials",
+    "settings": [
+      {
+        "type": "text",
+        "id": "pre_heading",
+        "label": "Pre-Heading",
+        "default": "TESTIMONIALS"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "primary",
+        "options": [
+          {
+            "label": "Button - primary",
+            "value": "primary"
+          },
+          {
+            "label": "Button - secondary",
+            "value": "secondary"
+          },
+          {
+            "label": "Link",
+            "value": "link"
+          }
+        ]
+      },
+      {
+        "type": "number",
+        "id": "img_max_width",
+        "label": "Image Max Width",
+        "default": 150
+      },
+      {
+        "type": "select",
+        "id": "image_position",
+        "label": "Image Position",
+        "default": "bottom",
+        "options": [
+          {
+            "label": "Top",
+            "value": "top"
+          },
+          {
+            "label": "Bottom",
+            "value": "bottom"
+          }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "slides_per_view",
+        "label": "Items per View",
+        "default": 1,
+        "min": 1,
+        "max": 3,
+        "step": 1
+      },
+      {
+        "type": "range",
+        "id": "slides_per_view_desk",
+        "label": "Items per View (Desktop)",
+        "default": 1,
+        "min": 1,
+        "max": 3,
+        "step": 1
+      },
+      {
+        "type": "checkbox",
+        "id": "show_arrows",
+        "label": "Show Arrows",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "auto_play",
+        "label": "Auto Play?",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "alternate_bg_color",
+        "label": "Use alternate section color",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "testimonials_class",
+        "label": "Custom Class"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "testimonial",
+        "name": "Testimonial",
+        "settings": [
+          {
+            "type": "range",
+            "id": "star_rating",
+            "min": 0,
+            "max": 5,
+            "step": 1,
+            "label": "Star rating",
+            "default": 5
+          },
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Heading",
+            "default": "Testimonial header"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Use to this text to elaborate on the main heading</p>"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          },
+          {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image",
+            "info": "750 x 1000px recommended"
+          },
+          {
+            "type": "text",
+            "id": "image1_caption",
+            "label": "Image caption"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonials",
+        "category": "Text",
+        "settings": {},
+        "blocks": [
+          {
+            "type": "testimonial"
+          },
+          {
+            "type": "testimonial"
+          },
+          {
+            "type": "testimonial"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

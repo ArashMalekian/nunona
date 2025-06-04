@@ -1,0 +1,20 @@
+<!-- Stamped - Begin Script-->
+<script async type="text/javascript" data-api-key="" id="stamped-script-widget" src="https://cdn-stamped-io.azureedge.net/files/widget.min.js"></script>
+<!-- Stamped - End Script -->
+
+<!-- Begin ReCharge code -->
+{% include 'subscription-theme-footer' %}
+<!-- End ReCharge code -->
+
+
+<style>
+  #ab-fix-element {
+    display: none!important;
+  }
+</style>
+
+{% unless template contains 'recharge-bundle-V3' %}
+<script src="{{ 'product-recharge-bundle.js' | asset_url }}" defer></script>
+{% endunless %}
+<script src="{{ 'custom.js' | asset_url }}" defer></script>
+<script src="{{ 'alpinejs@3.13.0.min.js' | asset_url }}" defer></script>    

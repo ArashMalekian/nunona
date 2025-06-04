@@ -1,0 +1,492 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_n9YztU": {
+      "type": "image-with-text",
+      "custom_css": [],
+      "settings": {
+        "subheading": "★★★★★ (5.0)",
+        "title": "The World's First Real Food <em class=\"ff-libre-baskerville-regular-italic\">Pre+Postnatal</em> Supplement Bites",
+        "title_size": 36,
+        "title_width": 12,
+        "text": "<p>Get Your First Box Free ($30 value) with code: FIRSTBOXFREE</p>",
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "text_below": "<p>FREE SHIPPING AND RETURNS | 30 DAY RISK FREE TRIAL</p>",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "secondary",
+        "image": "shopify://shop_images/Square-Image_02_1.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "alt",
+        "color_bg": "#a0669d",
+        "color_text": ""
+      }
+    },
+    "16364782805b5cd846": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Meet Nunona's Mama Bites",
+        "title": "Maternal nutrition just got real!",
+        "title_size": 34,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>Nunona is here to provide you with real food nourishment for a better prenatal and postnatal experience.</p>",
+        "image": "shopify://shop_images/Flavor-IMG-2.png",
+        "image_width": 190,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "no_padding_top": false,
+        "color_scheme": "standard",
+        "color_bg": "#f4e9de",
+        "color_text": ""
+      }
+    },
+    "slideshow_GhfxAA": {
+      "type": "slideshow",
+      "blocks": {
+        "image_6Ne8rB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DWeb_1000Days_1.png",
+            "mobile_image": "shopify://shop_images/MWeb_1000Days_1.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "image_6Ne8rB"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "max_width": false,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "rich_text_cYRby9": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "title_size": 20,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 190,
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "button_style": "secondary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "no_padding_top": false,
+        "color_scheme": "standard",
+        "color_bg": "#f4e9de",
+        "color_text": ""
+      }
+    },
+    "custom_liquid_XwUDgf": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": false,
+        "custom_liquid": "<hr>"
+      }
+    },
+    "testimonials_aV3ibE": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_q3Jian": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<h5><strong>NUT BUTTERS</strong></h5><p>Provide healthy fats & a good source of protein to help you recover post-birth. </p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/nuts-no-bowl.png",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_XVHhtf": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<h5><strong>OATS</strong></h5><p>Contain soluble fiber to help regulate blood sugar levels, which supports your mood & energy. </p><p>P.S. Our oats are certified gluten free!</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/oats-no-bowl_cff80b6c-c8dd-40a2-a2d6-fad40fcae139.png",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_qDAnpr": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<h5><strong>DATES</strong></h5><p>High in fiber for the comfort of your bowels and act as a natural sweetener. </p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/dates-no-bowl.png",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_KGehjt": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<h5><strong>FLAXSEEDS</strong></h5><p>High in plant-based Omega-3 fatty acids to help build baby's brain. </p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/flaxseeds-no-bowl.png",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_PbmrGJ": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<h5>NUNONA NUTRIENT BLEND<strong> </strong></h5><p>We provide 27 whole food, organic micronutrients in each and every bite.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Ingredient-Round_3.png",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_bEtYCw": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<h5><strong>ALGAE OIL</strong></h5><p>Non-GMO Micro Algae Oil is a vegan source of Omega-3 that supports brain and cognitive development. </p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Ingredient-Round.png",
+            "image1_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_q3Jian",
+        "testimonial_XVHhtf",
+        "testimonial_qDAnpr",
+        "testimonial_KGehjt",
+        "testimonial_PbmrGJ",
+        "testimonial_bEtYCw"
+      ],
+      "custom_css": [
+        ".section-testimonials .swiper-btn svg rect {fill: #e6fe55;}",
+        ".cc-testimonial__column-image img {width: 200px;}"
+      ],
+      "settings": {
+        "pre_heading": "MEET OUR",
+        "title": "Functional Ingredients",
+        "button_style": "primary",
+        "img_max_width": 200,
+        "image_position": "top",
+        "slides_per_view": 1,
+        "slides_per_view_desk": 3,
+        "show_arrows": true,
+        "auto_play": false,
+        "alternate_bg_color": false,
+        "testimonials_class": ""
+      }
+    },
+    "image_with_text_WGkg7z": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".button {background: #e6fe55; border: none;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Made With You & Baby In Mind",
+        "title_size": 36,
+        "title_width": 12,
+        "text": "<p>Unlike synthetic prenatal pills, Mama Bites are made with real food ingredients containing essential macro and micronutrients to support both you and your baby from planning through postpartum. These nutrients help promote a healthy pregnancy and enhance your baby’s development.</p><ul><li>Nutrient Dense</li><li>Organic + Plant-Based</li><li>No Synthetic Supplements</li><li>Gluten-Free Ingredients</li></ul>",
+        "list_icon": "shopify://shop_images/nunona-tick-black.svg",
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "text_below": "<p>*Made in a facility that processes gluten</p>",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "secondary",
+        "image": "shopify://shop_images/Square-Image_03_952a3a84-f332-4924-9451-0f2b5422cd67.jpg",
+        "image_width": 90,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_scheme": "custom",
+        "color_bg": "#fef5e9",
+        "color_text": ""
+      }
+    },
+    "slideshow_MHVich": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mXfE7i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TextBanner_DWeb.jpg",
+            "mobile_image": "shopify://shop_images/TextBanner_MWeb.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "image_mXfE7i"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "max_width": false,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "1660843333a4944878": {
+      "type": "testimonials",
+      "blocks": {
+        "16608433332c9fda66-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p><strong>Help meet the increased energy & nutrient needs </strong></p><p>Mama Balls are a tasty and convenient way to help meet the increased energy and nutrient needs!</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Headshot-2.png",
+            "image1_caption": "Rachelle, MA, RD, LDN"
+          }
+        },
+        "testimonial_T8zyxP": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p><strong>Delicious and Nutritious </strong></p><p>Nunona delivers vital nutrients to both moms and babies in a convenient and delightful manner. I wholeheartedly recommend Nunona to everyone! </p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Headshot_1.png",
+            "image1_caption": "Morgan, CNM, WHNP-BC, IBCLC"
+          }
+        },
+        "testimonial_ccHfag": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p><strong>My Number One Recommendation!</strong></p><p>Nunona’s Mama Balls are my number one recommendation for my nursing Mamas!  It can be so difficult to find time to prepare healthy food in the early postpartum months.  These balls are ready to eat and are packed with essential micro & macronutrients that help to optimize breastmilk while leaving Mama satisfied and nourished (myself included!). </p><p></p><p></p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Headshot-1.png",
+            "image1_caption": "Tracy Scott, Certified Integrative Health Coach and Mama of 3"
+          }
+        }
+      },
+      "block_order": [
+        "16608433332c9fda66-0",
+        "testimonial_T8zyxP",
+        "testimonial_ccHfag"
+      ],
+      "custom_css": [
+        "svg rect {fill: #ebfc72;}"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "Recommended by Experts, Loved By Moms",
+        "button_style": "primary",
+        "img_max_width": 100,
+        "image_position": "bottom",
+        "slides_per_view": 1,
+        "slides_per_view_desk": 1,
+        "show_arrows": true,
+        "auto_play": false,
+        "alternate_bg_color": false,
+        "testimonials_class": ""
+      }
+    },
+    "1660844831c97f0549": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "MADE BY A MAMA",
+        "title": "Meet Nunona Founder, Krista",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>As a former head of global marketing and innovation at pharmaceutical and nutritional companies, I knew the depth the infant nutrition industry goes to in order to support babies, but I was shocked by the lack of nutritional support for moms. </p><p></p><p>When I began my own motherhood journey, I quickly realized the products I wanted didn’t exist and the market wasn't meeting the needs of the modern mom. So I decided to make my own nutrient-packed snacks from organic plant-based, whole food ingredients without the use of synthetic supplements because this is better for our bodies and for our planet. </p>",
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "text_below": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/image.png",
+        "image_width": 90,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_scheme": "custom",
+        "color_bg": "#fef5e9",
+        "color_text": ""
+      }
+    },
+    "slideshow_DcpTLV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_nMPUbE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DWeb_IngredientBanner-Top.png",
+            "mobile_image": "shopify://shop_images/MWeb_IngredientBanner-Top.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "image_nMPUbE"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "max_width": false,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "16608462759bc4072a": {
+      "type": "rich-text",
+      "custom_css": [
+        ".button {background: #e6fe55; border: none;}"
+      ],
+      "settings": {
+        "subheading": "LIMITED TIME OFFER",
+        "title": "Get Your First Box FREE Mama!",
+        "title_size": 40,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>For a limited time get your <em><strong>FIRST BOX FREE ($30 Value)</strong></em> when you join. Nunona's pre+postnatal supplement delivers every month to help you get the nutrients you need.</p>",
+        "image_width": 120,
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "button_style": "secondary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "no_padding_top": false,
+        "color_scheme": "standard",
+        "color_bg": "#fef5e9",
+        "color_text": ""
+      }
+    },
+    "custom_featured_product_e7iKe7": {
+      "type": "custom-featured-product",
+      "disabled": true,
+      "custom_css": [
+        ".button {border: none;}"
+      ],
+      "settings": {
+        "custom_product": "mama-balls-2-boxes",
+        "custom_product_subtitle": "Essential nutrition for postpartum",
+        "custom_product_btn_text": "Choose My Plan",
+        "custom_product_url": "shopify://products/mama-balls-2-boxes",
+        "list_icon": "shopify://shop_images/nunona-tick-black.svg",
+        "section_bg_color": "#ffffff"
+      }
+    },
+    "1664943344104993bf": {
+      "type": "apps",
+      "settings": {
+        "title": "",
+        "skip_container": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_n9YztU",
+    "16364782805b5cd846",
+    "slideshow_GhfxAA",
+    "rich_text_cYRby9",
+    "custom_liquid_XwUDgf",
+    "testimonials_aV3ibE",
+    "image_with_text_WGkg7z",
+    "slideshow_MHVich",
+    "1660843333a4944878",
+    "1660844831c97f0549",
+    "slideshow_DcpTLV",
+    "16608462759bc4072a",
+    "custom_featured_product_e7iKe7",
+    "1664943344104993bf"
+  ]
+}

@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "3c0bc7b4-88a2-47a9-b679-5f3353634600": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        ".section-spacing {padding: 0;}",
+        ".overlay__content {max-width: 400px; text-align: center;}",
+        ".overlay.position--left .line-1,.overlay.position--left .line-2,.overlay.position--left .line-3 {text-align: center;}",
+        ".button {background: #000; border-color: #000; color: #fff;}",
+        ".rte {text-align: center; font-size: 0.8rem;}",
+        "@media (max-width: 767px) {.overlay-type {color: #fff; background: linear-gradient( 29deg, rgba(209, 45, 96, 1) 0%, rgba(211, 46, 97, 1) 99% ); }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LandingPage-banner.png",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 300,
+        "subheading": "★★★★★ Loved by 100+ Mamas",
+        "title": "The perfect snack to support Moms while breastfeeding",
+        "title_size": 36,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "GET YOUR BUNDLE TODAY",
+        "text_below": "<p>Get Your First Subscription Box FREE</p><p>Free Shipping Over $50  |  30-Day Money Back Guarantee</p>",
+        "image_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "overlay_position": "position--left position--vcenter",
+        "full_width": false,
+        "mobile_overlay_under": true,
+        "overlay_style_tint": false
+      }
+    },
+    "section_rich_text_with_icons_keAinc": {
+      "type": "section-rich-text-with-icons",
+      "blocks": {
+        "icon_9yBzcG": {
+          "type": "icon",
+          "settings": {
+            "title": "Nutrient-Dense"
+          }
+        },
+        "icon_xXwmqt": {
+          "type": "icon",
+          "settings": {
+            "title": "Whole Food Ingredients"
+          }
+        },
+        "icon_Fenzme": {
+          "type": "icon",
+          "settings": {
+            "title": "Scientifically Backed"
+          }
+        }
+      },
+      "block_order": [
+        "icon_9yBzcG",
+        "icon_xXwmqt",
+        "icon_Fenzme"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Easier Breastfeeding Made <span class=\"color-brand\">Nutrient-Rich</span>",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>Did you know that nursing mamas need an additional 500 calories postpartum to help produce enough breast milk for exclusive breastfeeding?<br/><br/>We formulated our Mama balls with the breastfeeding mama in mind—loaded with ten percent of your daily macronutrients per daily dose, and enough calories & active ingredients to help keep that supply up.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": true,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "alternate_bg_color": false,
+        "color_bg": "",
+        "richtext_class": ""
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "1601538737164-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<p>I can’t say enough about how nutritious and delicious these are for a busy nursing mama. It’s great to have something that I can quickly grab on the go and know that I’m getting some of the good stuff necessary for my newborn and myself. </p><p><strong>- Leigha B. </strong></p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Asset_2_1.png",
+            "image1_caption": ""
+          }
+        },
+        "2f397da3-8fc9-4dd5-a4aa-cc5341e0a5be": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<p></p><p>Mama Balls are a tasty and convenient way to help meet the increased energy and nutrient needs of breastfeeding. Plus they don’t require any prep and can be eaten with one hand!<br/><br/><strong>- Rachelle Mallik, MA, RD, LDN</strong></p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": ""
+          }
+        },
+        "1601538737164-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<p>This is perfect for exactly what it's designed. A healthy quick snack that helps you nourish yourself and baby. Even now a couple months into our breastfeeding journey I find it hard to make time for healthy snacks so I'm loving this.</p><p><strong>- Sarah F. </strong></p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "1601538737164-0",
+        "2f397da3-8fc9-4dd5-a4aa-cc5341e0a5be",
+        "1601538737164-1"
+      ],
+      "settings": {
+        "pre_heading": "TESTIMONIALS",
+        "title": "Recommended by Experts, Loved By Moms",
+        "button_style": "primary",
+        "img_max_width": 150,
+        "image_position": "bottom",
+        "slides_per_view": 1,
+        "show_arrows": true,
+        "auto_play": true,
+        "alternate_bg_color": false,
+        "testimonials_class": ""
+      }
+    },
+    "hero_new_3_t9PgBr": {
+      "type": "hero-new-3",
+      "blocks": {
+        "image_block_VXCX6h": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/oats.png",
+            "content": "<p><strong>GLUTEN-FREE OATS</strong></p><p>Helps regulate blood sugar levels, supporting your mood & energy levels</p>"
+          }
+        },
+        "image_block_rmTDF8": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/nuts.png",
+            "content": "<p><strong>NUTS</strong></p><p>Provides healthy fats and a good source of protein for post-birth recovery</p>"
+          }
+        },
+        "image_block_UJADy6": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/dates.png",
+            "content": "<p><strong>DATES</strong></p><p>High in fiber to improve bowel movement and act as a natural sweetener</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_VXCX6h",
+        "image_block_rmTDF8",
+        "image_block_UJADy6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/3_2_d9dd7b10-1940-4298-a969-8562461e9d82.png",
+        "pretext": "MEET OUR MAMA BALLS",
+        "title": "Fueling Moms, Nurturing Babies",
+        "subtitle": "Nunona’s Mama Balls are the perfect snack to support and enhance your breastfeeding experience.",
+        "content_alignment": "center",
+        "btn_text": "Get Your Bundle Today",
+        "btn_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "bottom_text": "Get Your First Subscription Box FREE",
+        "reviews_count": "",
+        "icon_text_1": "10% Daily Macronutrients",
+        "icon_text_2": "Essential Nutrients",
+        "icon_text_3": "Plant-Based",
+        "icon_text_4": "",
+        "icon_text_5": "",
+        "icon_text_6": "",
+        "block_icons_alignment": "horizontal",
+        "bg_color": "#edeae6"
+      }
+    },
+    "97c04fd7-d416-4857-9163-644d38b4dbcf": {
+      "type": "image-with-text",
+      "custom_css": [
+        "@media screen and (min-width: 768px) {.image-with-text__text, .feature-header, .rte, .rte h4 {text-align: left; } .button-row, .button-row + .rte {text-align: center; }}"
+      ],
+      "settings": {
+        "subheading": "BORN TO NOURISH MAMAS & THEIR BABAS",
+        "title": "Meet Founder & Mama Krista",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<h4><em>Healthy babies start with healthy mamas.</em></h4><p><em>“Starting my own journey into motherhood, I soon realized the products I desired were missing, failing to cater to the modern mom's needs. <br/></em></p><p><em>This led me to create nourishing snacks from organic plant-based ingredients, free from synthetic supplements, offering a better choice for our bodies and the planet.\"</em></p>",
+        "button_label": "GET YOUR BUNDLE TODAY",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "text_below": "<p>Get Your First Subscription Box FREE</p>",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/about-us.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "custom",
+        "color_bg": "#ef6079",
+        "color_text": "#ffffff"
+      }
+    },
+    "hero_new_3_jMarxG": {
+      "type": "hero-new-3",
+      "settings": {
+        "image": "shopify://shop_images/holding-baby.png",
+        "video": "shopify://files/videos/new7.mp4",
+        "pretext": "",
+        "title": "Made with You & Baby in Mind",
+        "subtitle": "The perfect snack to support and enhance your breastfeeding experience.",
+        "content_alignment": "center",
+        "btn_text": "Get Your Bundle Today",
+        "btn_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "bottom_text": "Get Your First Subscription Box FREE",
+        "reviews_count": "",
+        "icon_text_1": "Nutrient-Dense",
+        "icon_text_2": "Whole Food Plant-Based",
+        "icon_text_3": "Organic Ingredients",
+        "icon_text_4": "No Synthetic Supplements",
+        "icon_text_5": "Gluten-Free Oats*",
+        "icon_text_6": "",
+        "block_icons_alignment": "vertical",
+        "bg_color": "#edeae6"
+      }
+    },
+    "6733b851-e247-4586-b7c8-9c4c54030364": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".rimage-outer-wrapper {background-size: contain;}",
+        "@media screen and (min-width: 768px) {.image-with-text__text {flex-basis: 55%; }}"
+      ],
+      "settings": {
+        "subheading": "LIMITED TIME OFFER",
+        "title": "Get Your First Box FREE, Mama!",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>Get your <strong>First Box Free ($30 value)</strong> when you join the Nunona program. We'll send you a nourishment bundle every 2 weeks to keep you on track. Cancel anytime.<br/><br/><strong>That’s a 2-week supply for only $31.50.</strong></p>",
+        "button_label": "Claim your Free Box",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "text_below": "",
+        "text_alignment": "center",
+        "text_width": 44,
+        "button_style": "secondary",
+        "image": "shopify://shop_images/box-hellomama_462744ca-2c45-4a2f-93d4-a9c390540507.png",
+        "image_width": 80,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "#fed2d5",
+        "color_text": ""
+      }
+    },
+    "custom_featured_product_3zkwbc": {
+      "type": "custom-featured-product",
+      "custom_css": [],
+      "settings": {
+        "custom_product": "mama-balls-2-boxes",
+        "custom_product_subtitle": "Essential nutrition for postpartum Mamas",
+        "custom_product_btn_text": "GET STARTED →",
+        "custom_product_url": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle",
+        "list_icon": "shopify://shop_images/Nunona_Tick_Pink.svg",
+        "section_bg_color": "#FFFFFF"
+      }
+    },
+    "03f877ee-4aea-40fd-9959-626c665a6f44": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Step_1.png",
+            "image_width": 60,
+            "title": "Choose Your Subscription Plan",
+            "text": "<p>Decide whether to get 2 boxes of our Mama Balls every 2 weeks or 4 boxes every month. Save up to 20%!</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Step_2.png",
+            "image_width": 60,
+            "title": "Choose Your Preferred Flavors",
+            "text": "<p>Select from our 9 fun flavors, crafted with love for every new mom.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Step_3.png",
+            "image_width": 60,
+            "title": "Nourish & Flourish with Every Free Delivery!",
+            "text": "<p>Your Mama Balls arrive as per your plan, packed with benefits for you and your little one.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-1",
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-2",
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-3"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "How It Works",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "bg_color": "#edeae6",
+        "text_color": "#231f20",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "text_columns_class": ""
+      }
+    },
+    "1697651111da95b2dc": {
+      "type": "apps",
+      "settings": {
+        "skip_container": false
+      }
+    },
+    "hero_new_3_igLVpH": {
+      "type": "hero-new-3",
+      "custom_css": [
+        ".rimage-outer-wrapper {max-width: 50%;}",
+        "@media screen and (min-width: 768px) {.rimage-outer-wrapper {max-width: 400px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/mamas-ball-atom.png",
+        "pretext": "",
+        "title": "What’s in Nunona’s Mama Ball",
+        "subtitle": "",
+        "content_alignment": "left",
+        "btn_text": "",
+        "btn_link": "shopify://collections/build-a-bundle",
+        "bottom_text": "Get Your First Subscription Box FREE",
+        "reviews_count": "",
+        "icon_text_1": "Evidence-Backed Nourishment <br> <small>Grounded in science, offering genuine benefits for both moms and babies.</small>",
+        "icon_text_2": "Real Ingredients <br> \n<small>Authentic, healthful ingredients that support overall well-being.</small>",
+        "icon_text_3": "Tailored Nutrients <br>\n<small>Including only what's essential for maximum nourishment.</small>",
+        "icon_text_4": "No Processed Additives<br>\n<small>We steer clear of heavy processing and artificial components.</small>",
+        "icon_text_5": "Whole Food Approach<br>\n<small>We believe in the power of whole foods with essential nutrients to enhance breastmilk quality.</small>",
+        "icon_text_6": "",
+        "block_icons_alignment": "vertical",
+        "bg_color": "#fed2d5"
+      }
+    },
+    "custom_liquid_rNyWGK": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "{% render 'nunona-table' %}"
+      }
+    },
+    "163647070838dc410f": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "LIMITED TIME OFFER",
+        "title": "Join thousands of Mama's who've made the switch to Nunona, and get your first subscription box free.",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "",
+        "button_label": "GET YOUR BUNDLE TODAY",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "text_below": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "primary",
+        "image": "shopify://shop_images/Untitled_design_44.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "#ffffff",
+        "color_text": ""
+      }
+    },
+    "1636470872b4342911": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Join our healthy mama movement @nunonalife",
+        "title_size": 34,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>We love seeing mamas helping other mamas. </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "1708106806e659e246": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_iR3VjX": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_iR3VjX"
+      ],
+      "settings": {
+        "skip_container": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3c0bc7b4-88a2-47a9-b679-5f3353634600",
+    "section_rich_text_with_icons_keAinc",
+    "testimonials",
+    "hero_new_3_t9PgBr",
+    "97c04fd7-d416-4857-9163-644d38b4dbcf",
+    "hero_new_3_jMarxG",
+    "6733b851-e247-4586-b7c8-9c4c54030364",
+    "custom_featured_product_3zkwbc",
+    "03f877ee-4aea-40fd-9959-626c665a6f44",
+    "1697651111da95b2dc",
+    "hero_new_3_igLVpH",
+    "custom_liquid_rNyWGK",
+    "163647070838dc410f",
+    "1636470872b4342911",
+    "1708106806e659e246"
+  ]
+}

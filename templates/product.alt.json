@@ -1,0 +1,155 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "16364783342eddd031": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "16364783342eddd031-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Satisfy.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Satisfy breastfeeding hunger </p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16364783342eddd031-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Nutrients.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Essential nutrients for mom & baby</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16364783342eddd031-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Reminder.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Convenient reminder to eat</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16364783342eddd031-0",
+        "16364783342eddd031-1",
+        "16364783342eddd031-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "alternate_bg_color": true,
+        "full_width": false
+      }
+    },
+    "16364782805b5cd846": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Know a Mama Who Needs Nunona?",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Share a sample of our Mama Balls with someone in your mom circle and give the gift of nourishment!</p>",
+        "image_width": 120,
+        "button_label": "Share a Sample",
+        "button_link": "",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": "#fbd7de"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {}
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {}
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "settings": {
+        "media_style": "two-column",
+        "sticky_behaviour": "bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "16364783342eddd031",
+    "16364782805b5cd846"
+  ]
+}

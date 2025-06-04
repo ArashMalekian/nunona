@@ -1,0 +1,133 @@
+<div class="new-hero-section">
+  <div class="title hide--desktop">{{ section.settings.title }}</div>
+  <div class="image-content">
+    {% if section.settings.image == blank %}
+      <div class="placeholder-image placeholder--banner {% if show_overlay_text %}dark{% endif %}">
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      </div>
+    {% else %}
+      <div class="rimage-outer-wrapper hide--mobile rimage-background lazyload fade-in"
+          data-cc-animate="cc-zoom-out"
+          data-bgset="{% render 'bgset', image: section.settings.image %}"
+          data-sizes="auto"
+          data-parent-fit="cover">
+        {%- if section.settings.height == 'natural' -%}
+          <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%"></div>
+        {%- endif -%}
+        <noscript>
+          <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%">
+            <img src="{{ section.settings.image | img_url: '1024x1024' }}" alt="{{ section.settings.image.alt | escape }}" class="rimage__image">
+          </div>
+        </noscript>
+      </div>
+      <div class="rimage-outer-wrapper hide--desktop rimage-background lazyload fade-in"
+          data-cc-animate="cc-zoom-out"
+          data-bgset="{% render 'bgset', image: section.settings.image_mobile %}"
+          data-sizes="auto"
+          data-parent-fit="cover">
+        {%- if section.settings.height == 'natural' -%}
+          <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%"></div>
+        {%- endif -%}
+        <noscript>
+          <div class="rimage-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%">
+            <img src="{{ section.settings.image | img_url: '1024x1024' }}" alt="{{ section.settings.image.alt | escape }}" class="rimage__image">
+          </div>
+        </noscript>
+      </div>
+    {% endif %}
+  </div>
+  <div class="text-content">
+    <div class="title hide--mobile">{{ section.settings.title }}</div>
+    <div class="subtitle">{{ section.settings.subtitle }}</div>
+    <div class="reviews-count">
+      <span class="stamped-starrating stamped-badge-starrating" aria-hidden="true"><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i></span>
+      <span>{{ section.settings.reviews_count }} reviews</span>
+    </div>
+    {% if section.settings.btn_text != '' %}
+      <a href="{{ section.settings.btn_link }}" class="button button--primary">{{ section.settings.btn_text }}</a>
+    {% endif %}
+    <div class="bottom-icon-list">
+      <div class="bottom-icon-item">
+        <img src="{{ 'tick.png' | asset_url }}" alt="tick mark">
+        <span>{{ section.settings.icon_text_1 }}</span>
+      </div>
+      <div class="bottom-icon-item">
+        <img src="{{ 'tick.png' | asset_url }}" alt="tick mark">
+        <span>{{ section.settings.icon_text_2 }}</span>
+      </div>
+      <div class="bottom-icon-item">
+        <img src="{{ 'tick.png' | asset_url }}" alt="tick mark">
+        <span>{{ section.settings.icon_text_3 }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "New Hero",
+    "class": "new-hero",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button Text"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "bottom_text",
+        "label": "Bottom Text"
+      },
+      {
+        "type": "text",
+        "id": "reviews_count",
+        "label": "Reviews Count"
+      },
+      {
+        "type": "text",
+        "id": "icon_text_1",
+        "label": "Icon Text 1"
+      },
+      {
+        "type": "text",
+        "id": "icon_text_2",
+        "label": "Icon Text 2"
+      },
+      {
+        "type": "text",
+        "id": "icon_text_3",
+        "label": "Icon Text 3"
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Hero"
+      }
+    ]
+  }
+{% endschema %}

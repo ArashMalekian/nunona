@@ -1,0 +1,137 @@
+{%- capture style_vars -%}
+  --list-bg-tick: url({{ section.settings.list_icon | image_url }});
+{%- endcapture -%}
+
+<div class="custom-featured-product" id="custom-featured-product" style="{{ style_vars }}">
+  {% assign custom_product = all_products[section.settings.custom_product] %}
+
+  <div class="product-bundle-steps">
+    <div class="product-bundle-step1">
+      <div class="product-step1-left">
+        <h1 class="product-area__details__title product-detail__gap-sm h2">{{ custom_product.title }}</h1>
+        <!-- Stamped - Begin badge -->
+        <span
+          class="stamped-product-reviews-badge stamped-main-badge"
+          data-id="{{ custom_product.id }}"
+          data-product-title="{{ custom_product.title | escape }}"
+          data-product-type="{{ custom_product.type }}"
+          style="display: block;"
+        ></span>
+        <!-- Stamped - End badge -->
+
+        <div class="bundle-product-description">
+          {{ custom_product.content }}
+        </div>
+
+        <div class="choose-your-plan align-center">
+          <div class="button-row">
+            <a
+              data-cc-animate-click=""
+              class="button-custom button alt"
+              href="{{ section.settings.custom_product_url }}"
+            >
+              {{ section.settings.custom_product_btn_text }}
+            </a>
+          </div>
+        </div>
+
+        <div class="product-bundle-step1-bottom">
+          {% assign product_extras = custom_product.metafields.custom.product_extras | split: '|' %}
+          <ul>
+            {%- for extra in product_extras -%}
+              <li>
+                <svg
+                  style="fill:none; width: 18px;"
+                  width="21"
+                  height="21"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M17.5 5.25L7.875 14.875L3.5 10.5" stroke="#1C1C1C" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>{{ extra }}</span>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+
+        {% assign features_label = custom_product.metafields.custom.features_labels | split: ',' %}
+        <div class="product-bundle-features">
+          {%- for feature_icon in custom_product.metafields.custom.features_icons.value -%}
+            {% assign feature_index = forloop.index | minus: 1 %}
+            <div>
+              <img src="{{ feature_icon | img_url: 'grande'  }}" alt="">
+              <span>{{ features_label[feature_index] }}</span>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+
+      <div class="product-step1-right">
+        {% assign bundle_images = custom_product.metafields.custom.image_carousel_for_bundle.value %}
+
+        {% render 'custom-media-gallery', medias: bundle_images, section: section %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% style %}
+  #shopify-section-{{ section.id }} .custom-featured-product {
+    background-color: {{ section.settings.section_bg_color }};
+  }
+  #shopify-section-{{ section.id }} .custom-featured-product .product-bundle-step1 {
+    margin-bottom: 0;
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Custom Featured Product",
+  "class": "custom-featured-product",
+  "settings": [
+    {
+        "type": "product",
+        "id": "custom_product",
+        "label": "Custom featured product"
+    },
+    {
+        "type": "text",
+        "id": "custom_product_subtitle",
+        "label": "Product Subtitle"
+    },
+    {
+        "type": "text",
+        "id": "custom_product_btn_text",
+        "label": "Button Text",
+        "default": "Get Started"
+    },
+    {
+        "type": "url",
+        "id": "custom_product_url",
+        "label": "Product URL"
+    },
+    {
+        "type": "image_picker",
+        "id": "list_icon",
+        "label": "List Icon"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "presets": [
+    {
+        "name": "Custom Featured Product",
+        "category": "Product",
+        "settings": {
+        }
+    }
+  ],
+  "templates": ["404", "article", "blog", "collection", "cart", "index", "list-collections", "page", "product", "search"]
+}
+{% endschema %}

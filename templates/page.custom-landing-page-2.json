@@ -1,0 +1,553 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16608428216e1b576f": {
+      "type": "slideshow",
+      "blocks": {
+        "1660842821a02e60f6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CoverLandingPage.jpg",
+            "mobile_image": "shopify://shop_images/nunona-hero-mobike.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Headline goes here",
+            "title_size": 36,
+            "heading_h1": false,
+            "text": "<p>Subheading and description goes here</p>",
+            "enlarge_text": true,
+            "button_label": "Learn More",
+            "overlay_position": "position--hcenter position--top"
+          }
+        }
+      },
+      "block_order": [
+        "1660842821a02e60f6-0"
+      ],
+      "settings": {
+        "height": "full",
+        "height_desktop": 800,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "slide_transition": "slide",
+        "slide_navigation": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "1660843333a4944878": {
+      "type": "testimonials",
+      "blocks": {
+        "16608433332c9fda66-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, mi sit amet feugiat hendrerit.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Asset_2_1.png",
+            "image1_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "16608433332c9fda66-0"
+      ],
+      "settings": {
+        "title": "What People Are Saying",
+        "button_style": "primary",
+        "alternate_bg_color": false
+      }
+    },
+    "16364782805b5cd846": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Your Bold introduction statement goes here",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, mi sit amet feugiat hendrerit, orci nulla cursus risus, eu condimentum libero magna id dolor.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": "#f4e9de"
+      }
+    },
+    "16608439807cf3231c": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Your offering statement goes here",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, mi sit amet feugiat hendrerit, orci nulla cursus risus, eu condimentum libero magna id dolor.</p>",
+        "button_label": "Get 20% Off Now",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Nunona-Web-Home-Ingredients.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_bg": ""
+      }
+    },
+    "1660844190263d3a2b": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Meet Nunona's \nMama Balls",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 40,
+        "button_style": "auto",
+        "image": "shopify://shop_images/mama-ball.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_bg": "#edeae6"
+      }
+    },
+    "1660847626749d80f7": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Recommended by Experts",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipi<br/>scing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali</p><p></p><p>•   10% Daily Macronutrients<br/>•   Plant-Based Omega 3 Fatty<br/>•   B Vitamins and Iron</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_bg": "#edeae6"
+      }
+    },
+    "16608547682382aa22": {
+      "type": "slideshow",
+      "blocks": {
+        "166085476850abb021-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Cocoa_0dbd4c97-ea2a-4991-9048-11310aa11571.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "10% Daily Macronutrients",
+            "title_size": 20,
+            "heading_h1": false,
+            "text": "<p>Recommended by Experts</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        },
+        "166085476850abb021-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Matcha.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Plant-Based Omega 3 Fatty",
+            "title_size": 20,
+            "heading_h1": false,
+            "text": "<p>Recommended by Experts</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        },
+        "8094bf6e-cb04-4b8d-8717-ec36a3fdd6fe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Coconut.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "B Vitamins & Iron",
+            "title_size": 20,
+            "heading_h1": false,
+            "text": "<p>Recommended by Experts</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        }
+      },
+      "block_order": [
+        "166085476850abb021-0",
+        "166085476850abb021-1",
+        "8094bf6e-cb04-4b8d-8717-ec36a3fdd6fe"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 640,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "slide_transition": "slide",
+        "slide_navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16364783342eddd031": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "16364783342eddd031-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/icon-1.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Satisfy breastfeeding hunger </p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16364783342eddd031-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/icon-2.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Essential macro and micronutrients<br/>for mom & baby</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16364783342eddd031-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/icon-3.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Convenient reminder to eat</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16364783342eddd031-0",
+        "16364783342eddd031-1",
+        "16364783342eddd031-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "alternate_bg_color": false,
+        "full_width": false
+      }
+    },
+    "1660844553c66cec30": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Lactation cookies\ncrumble under scrutiny",
+        "text": "<p>We give you only what your body needs & nothing else. Take a closer look. </p>",
+        "button_label": "WHY WE'RE BETTER",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 40,
+        "button_style": "primary",
+        "image": "shopify://shop_images/nunona-cookies.png",
+        "image_width": 90,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_bg": "#edeae6"
+      }
+    },
+    "1660844831c97f0549": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Meet Founder Mama Krista",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, mi sit amet feugiat hendrerit, orci nulla cursus risus, eu condimentum libero magna id dolor.</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/krista.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_bg": "#ef576d"
+      }
+    },
+    "1660845479ba0e47c6": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Bold Mama Benefit Statement Goes Here",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": "#231f20"
+      }
+    },
+    "16608456323525c900": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Made With You & Baby In Mind",
+        "text": "<p>•   Nutrient Dense<br/>•   Whole Food Plant-Based<br/>•   Organic<br/>•   No Synthetic Supplements<br/>•   Gluten Free Oats*<br/><br/>*Made in a facility that processes gluten</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 47,
+        "button_style": "auto",
+        "image": "shopify://shop_images/video.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_bg": "#edeae6"
+      }
+    },
+    "16608462759bc4072a": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Promo block goes here",
+        "title_size": 40,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": "#fed2d5"
+      }
+    },
+    "166517173274f8ebc1": {
+      "type": "apps",
+      "blocks": {
+        "ce2df4c3-d403-4d19-acd0-361cfb64a5b8": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/bundles-widget/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "mama-balls-2-boxes",
+            "rb_theme_color": "#ef6079",
+            "rb_theme_text": "#ffffff",
+            "rb_theme_other_text": "#283965",
+            "rb_theme_bg": "#ffffff",
+            "rb_text_size": "16px",
+            "rb_spacing_width": 1220,
+            "rb_spacing_margins": "15px",
+            "rb_buttons_size": "15px",
+            "rb_buttons_corners": "4",
+            "rb_builder_items_per_row_ns": 4,
+            "rb_builder_items_per_row": "1",
+            "rb_builder_aspect_ratio": "100%",
+            "rb_builder_radius": "4"
+          }
+        }
+      },
+      "block_order": [
+        "ce2df4c3-d403-4d19-acd0-361cfb64a5b8"
+      ],
+      "settings": {
+        "skip_container": false
+      }
+    },
+    "1660846000dc9e8f4e": {
+      "type": "testimonials",
+      "blocks": {
+        "1660846000aa1a2631-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "Review Goes Here",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, mi sit amet feugiat hendrerit.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Ellipse_4.png",
+            "image1_caption": ""
+          }
+        },
+        "1660846000aa1a2631-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "Review Goes Here",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, mi sit amet feugiat hendrerit.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Ellipse_4_d49337c8-8f9b-4524-b01b-4d3f07b6790c.png",
+            "image1_caption": ""
+          }
+        },
+        "1660846000aa1a2631-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "Review Goes Here",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, mi sit amet feugiat hendrerit.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Ellipse_4.png",
+            "image1_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "1660846000aa1a2631-0",
+        "1660846000aa1a2631-1",
+        "1660846000aa1a2631-2"
+      ],
+      "settings": {
+        "title": "Recommended By Experts",
+        "button_style": "primary",
+        "alternate_bg_color": true
+      }
+    },
+    "1660846393545b6f82": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "166084639388087078-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "What's in a Mama Ball",
+            "text": "<p></p><p>– Nutrient Dense</p><p>– Whole Food Plant Based</p><p>– High Protein</p><p>– Refined Sugar Free</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "166084639388087078-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mama-nucleus.png",
+            "image_width": 270,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "166084639388087078-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "You Deserve a Better Bite",
+            "text": "<p>Unlike lactation cookies, Mama Balls are made with real food ingredients that contain essential macro & micronutrients to support breastfeeding, enhance baby's brain & body development, and help with postpartum recovery.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166084639388087078-0",
+        "166084639388087078-1",
+        "166084639388087078-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "left",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "alternate_bg_color": true,
+        "full_width": false
+      }
+    },
+    "16608472988a4cff11": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "Real Mamas",
+        "title": "Powered by Nunona",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/mamaandbaby.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_bg": "#f5f5f5"
+      }
+    },
+    "166084697480fcafe3": {
+      "type": "apps",
+      "blocks": {
+        "d3bdf4fc-4ca1-4a34-949e-c7631622a3a2": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": "<h1>Join Our Healthy Mama Movement</h1>\n<h2>@nunonalife</h2>\n<p>We love seeing mamas helping other mamas.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "d3bdf4fc-4ca1-4a34-949e-c7631622a3a2"
+      ],
+      "settings": {
+        "skip_container": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "16608428216e1b576f",
+    "1660843333a4944878",
+    "16364782805b5cd846",
+    "16608439807cf3231c",
+    "1660844190263d3a2b",
+    "1660847626749d80f7",
+    "16608547682382aa22",
+    "16364783342eddd031",
+    "1660844553c66cec30",
+    "1660844831c97f0549",
+    "1660845479ba0e47c6",
+    "16608456323525c900",
+    "16608462759bc4072a",
+    "166517173274f8ebc1",
+    "1660846000dc9e8f4e",
+    "1660846393545b6f82",
+    "16608472988a4cff11",
+    "166084697480fcafe3"
+  ]
+}

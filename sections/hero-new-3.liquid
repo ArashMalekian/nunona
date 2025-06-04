@@ -1,0 +1,222 @@
+{% assign image_blocks = section.blocks | where: 'type', 'image-block' %}
+
+<div class="new-hero-section new-hero-section-3 {% if image_blocks.size == 0 %}columns-center{% endif %}" style="background: {{ section.settings.bg_color }}">
+  <div class="image-content">
+    {% if section.settings.video != blank %}
+      <div class="rimage-outer-wrapper"
+        x-data="CustomVideoAutoPlay" x-init="mounted">
+        {{ section.settings.video | video_tag }}
+      </div>
+    {% elsif section.settings.image == blank %}
+      <div class="placeholder-image placeholder--banner {% if show_overlay_text %}dark{% endif %}">
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      </div>
+    {% else %}
+      <div class="rimage-outer-wrapper hide--mobile rimage-background lazyload fade-in">
+        <img src="{{ section.settings.image | img_url: '1024x1024' }}" alt="{{ section.settings.image.alt | escape }}" class="rimage__image">
+      </div>
+      <div class="rimage-outer-wrapper hide--desktop rimage-background lazyload fade-in">
+        <img src="{{ section.settings.image | img_url: '1024x1024' }}" alt="{{ section.settings.image_mobile.alt | escape }}" class="rimage__image">
+      </div>
+    {% endif %}
+  </div>
+  <div class="text-content content-{{ section.settings.content_alignment }}">
+    <div class="pretext color-brand"><strong>{{ section.settings.pretext }}</strong></div>
+    <div class="h2"><strong>{{ section.settings.title }}</strong></div>
+    <div class="subtitle">{{ section.settings.subtitle }}</div>
+
+    {% if section.settings.reviews_count != blank %}
+    <div class="reviews-count">
+      <span class="stamped-starrating stamped-badge-starrating" aria-hidden="true"><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i><i class="stamped-fa stamped-fa-star" aria-hidden="true"></i></span>
+      <span>{{ section.settings.reviews_count }} reviews</span>
+    </div>
+    {% endif %}
+
+    <div class="bottom-icon-list {{ section.settings.block_icons_alignment }}">
+      {% for i in (1..6) %}
+        {% liquid 
+          assign icon_id = 'icon_text_' | append: i
+          assign block_icon = section.settings[icon_id]
+        %}
+        {% if block_icon != '' %}
+        <div class="bottom-icon-item">
+          <img src="{{ 'brand-check.png' | asset_url }}" alt="tick mark">
+          <span>{{ block_icon }}</span>
+        </div>  
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% if image_blocks.size > 0 %}
+      <ul class="image-blocks">
+      {% for block in image_blocks %}
+        <li {{ block.shopify_attributes }}>
+          <img src="{{ block.settings.image | img_url: 'x600' }}" />
+          <div>
+            {{ block.settings.content }}
+          </div>
+        </li>
+      {% endfor %}
+      </ul>      
+    {% endif %}
+
+    {% if section.settings.btn_text != '' %}
+    <div class="button-wrap">
+      <a href="{{ section.settings.btn_link }}" class="button button--primary">{{ section.settings.btn_text }}</a>
+      <div style="font-size: 0.8rem; margin: 0.5rem 0;">{{ section.settings.bottom_text }}</div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "New Hero",
+    "class": "new-hero",
+    "blocks": [
+      {
+        "type": "image-block",
+        "name": "Image Block",
+        "limit": 3,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video"
+      },
+      {
+        "type": "text",
+        "id": "pretext",
+        "label": "Pre-Text",
+        "default": "PRETEXT"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "select",
+        "id": "content_alignment",
+        "label": "Content Alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button Text"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "bottom_text",
+        "label": "Bottom Text"
+      },
+      {
+        "type": "text",
+        "id": "reviews_count",
+        "label": "Reviews Count"
+      },
+      {
+        "type": "textarea",
+        "id": "icon_text_1",
+        "label": "Icon Text 1"
+      },
+      {
+        "type": "textarea",
+        "id": "icon_text_2",
+        "label": "Icon Text 2"
+      },
+      {
+        "type": "textarea",
+        "id": "icon_text_3",
+        "label": "Icon Text 3"
+      },
+      {
+        "type": "textarea",
+        "id": "icon_text_4",
+        "label": "Icon Text 4"
+      },
+      {
+        "type": "textarea",
+        "id": "icon_text_5",
+        "label": "Icon Text 5"
+      },
+      {
+        "type": "textarea",
+        "id": "icon_text_6",
+        "label": "Icon Text 6"
+      },
+      {
+        "type": "select",
+        "id": "block_icons_alignment",
+        "label": "Icons Alignment",
+        "options": [
+          {
+            "value": "vertical",
+            "label": "Vertical"
+          },
+          {
+            "value": "horizontal",
+            "label": "Horizontal"
+          }
+        ],
+        "default": "horizontal"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Section Background color",
+        "default": "#EDEAE6"
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Hero #3"
+      }
+    ]
+  }
+{% endschema %}

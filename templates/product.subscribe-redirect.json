@@ -1,0 +1,211 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": false,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "ac1ee9a4-803d-49bf-af8a-b8c68b70e02b": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "4660f0e6-b06a-4bad-930e-6cae7599f378": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>An award winning postpartum snack designed to nourish new moms and provide essential nutrients for babies development. </p><p><strong>Because Healthy Babies Start with Healthy Mamas!</strong></p>"
+          }
+        },
+        "5f25983c-5d52-414e-9000-159d2a329366": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Want to subscribe and save instead? Build a bundle!",
+            "text_style": "uppercase"
+          }
+        },
+        "a63bb76a-f0ff-4f9c-9eef-9673fd48f167": {
+          "type": "link",
+          "settings": {
+            "text": "Get Started",
+            "url": "shopify://products/mama-balls-2-boxes",
+            "text_style": "button_primary",
+            "open_new_window": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": true,
+            "show_pickup_availability": false
+          }
+        },
+        "99d8d94f-3610-4996-9b74-e6864e9a2bed": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>- Free shipping over $50</p><p>- Small Batch</p><p>- Made in USA</p>"
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "tab_2_page": "",
+            "tab_2_title": "Product Details",
+            "tab_2_content": "<p>Each box is a one-week supply containing 28 energy balls</p><p>'Dosage’ is one sleeve (4 balls)/day x 7 days a week to help ensure Mamas are getting the extra energy required for breastfeeding</p><p>Each serving supplies at least 10% of your daily macronutrient requirements (carbs, fat, and protein) and essential nutrients to enhance the profile of breastmilk</p>",
+            "tab_3_page": "",
+            "tab_3_title": "About Mama Balls",
+            "tab_3_content": "<p>Good nutrition during the first 1000 days, from conception until 2 years of age, has benefits that may last a lifetime</p><p>The quality of the maternal diet affects the quality of breast milk</p><p>Mama Balls help you create quality breast milk</p><p>Whole Food Plant-Based and expertly formulated for new Mamas</p>",
+            "tab_4_page": "",
+            "tab_4_title": "FAQs",
+            "tab_4_content": "<p><strong>Try Now & Schedule for Due Date Delivery!</strong><br/><em>Have you tried Mama Balls and want to perfectly time your subscription for babies' arrival? It's simple!</em></p><p>- Place your first subscription order  - You will receive an email with a link to manage your subscription account<br/>- Once in your account select 'Delivery Schedule' <br/>- For your next upcoming order, select your preferred order date as your due-date (this is the date your order will be placed, please allow time for delivery)<br/>- <em>You will receive the order you placed at checkout and then all upcoming orders after the first can be scheduled for your due-date</em><br/>- Deliveries are automatically scheduled for every 2 weeks<br/>- Cancel at any time! Enjoy!<br/></p><p></p><p><strong>Change my Subscription Flavor</strong><br/><em>Want to try a different bi-weekly flavor?</em></p><p>- Login to your subscription account<br/>- Once in your account select 'Subscriptions' <br/>- Click ‘Add Product’ and select your new bi-weekly flavor <br/>- In 'Upcoming Orders,' skip the product that you do not want for the next 2 weeks<br/>- You're all set!</p><p></p><p><strong><br/>Edit My Delivery Schedule or Address</strong><br/><em>Not going to be home? You can edit your delivery address to a new location so that you never have to miss an order!</em><br/></p><p>- Login to your subscription account<br/>- Once in your account select the subscription that you would like to edit<br/>- Select 'Next order'<br/>- Click your name and address to edit your shipping address to your preferred delivery location<br/>- Need to skip an order? Edit your delivery schedule by selecting ‘Skip’</p>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "ac1ee9a4-803d-49bf-af8a-b8c68b70e02b",
+        "price",
+        "4660f0e6-b06a-4bad-930e-6cae7599f378",
+        "5f25983c-5d52-414e-9000-159d2a329366",
+        "a63bb76a-f0ff-4f9c-9eef-9673fd48f167",
+        "buy_buttons",
+        "99d8d94f-3610-4996-9b74-e6864e9a2bed",
+        "tabs"
+      ],
+      "settings": {
+        "media_style": "one-column",
+        "full_width": false,
+        "show_backorder_text": true,
+        "slide_nav_style": "dots",
+        "enable_zoom": false,
+        "show_thumbnails": false,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "16364783342eddd031": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "16364783342eddd031-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Satisfy.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Satisfy breastfeeding hunger </p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16364783342eddd031-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Nutrients.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Essential nutrients for mom & baby</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16364783342eddd031-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Reminder.png",
+            "image_width": 140,
+            "title": "",
+            "text": "<p>Convenient reminder to eat</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16364783342eddd031-0",
+        "16364783342eddd031-1",
+        "16364783342eddd031-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "alternate_bg_color": true,
+        "full_width": false
+      }
+    },
+    "16364782805b5cd846": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Know a Mama Who Needs Nunona?",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Share a sample of our Mama Balls with someone in your mom circle and give the gift of nourishment!</p>",
+        "image_width": 120,
+        "button_label": "Share a Sample",
+        "button_link": "",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": "#fbd7de"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "16364783342eddd031",
+    "16364782805b5cd846"
+  ]
+}

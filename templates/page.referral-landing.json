@@ -1,0 +1,627 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16367335382f027df8": {
+      "type": "slideshow",
+      "blocks": {
+        "16367335382f027df8-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-LP-Hero.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Lactation Cookies\nCrumble\nUnder Scrutiny",
+            "title_size": 64,
+            "heading_h1": true,
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "16367335382f027df8-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "title_size": 60,
+            "heading_h1": false,
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "16367335382f027df8-0",
+        "16367335382f027df8-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": true,
+        "overlay_style_tint": false,
+        "slide_transition": "slide",
+        "slide_navigation": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "16367335792138e2b4": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "<font size=\"+20\"> Share the Health, Mama\n</font>",
+        "text": "<p>Good for you, good for her = great for babies. Sharing is caring and now you can send a free sample to a mom friend and show up for her when she needs it most. </p>",
+        "button_label": "",
+        "button_link": "shopify://collections/mama-collection",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "primary",
+        "image": "shopify://shop_images/gravida_morgan_Breastfeeding.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_bg": "#fbd7de"
+      }
+    },
+    "1636733661402deb14": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-Home-Trust-Symbols.png",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "1636733876765044f8": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Redefining Maternal Nutrition",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Maternal nutrition affects baby for a lifetime. Essential nutrients mamas consume like omega 3 fatty acids, B-vitamins and iron help with optimal brain & body development for Baby. Nunona's bite-sized energy balls are formulated by moms & scientists to support breastfeeding mamas with the essential nutrients babies need for a lifetime of health.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "1636733880fa0fac9c": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-LP-Icons.png",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "16394631663f8fc4cd": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-Home-Benefits.jpg",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "163946351618425b84": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Only What You Need and Nothing Else",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>We handpick ingredients that supply essential nutrients.<br/>Our core functional ingredients are: </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "16394634385cea9f5f": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "1639463438ab5d9b44-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-Oats.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Oats</strong></p><p>Contain soluble fiber to help regulate<br/>blood sugar levels, which supports<br/>your mood & energy levels. <br/><br/>P.S. Our oats are gluten free!</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1639463438ab5d9b44-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-Nutbutters.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Nut Butters</strong></p><p>Provide healthy fats & a <br/>good source of protein to help <br/>you recover post-birth.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1639463438ab5d9b44-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-Flaxseeds.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Flaxseeds</strong></p><p>High in plant-based<br/>Omega-3 fatty acids to <br/>help build baby’s brain.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "4aee5f67-d7d6-4f0e-9cb7-1073f40c6bc5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-Dates.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Dates</strong></p><p>High in fiber for the comfort<br/>of your bowels and act as <br/>a natural sweetener.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "4fd56815-66bc-4102-918c-ac88ed897ad1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-BrewersYeast.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Brewer's Yeast</strong></p><p>Provides protein, iron and <br/>B Vitamins for cell creation <br/>& brain development.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639463438ab5d9b44-0",
+        "1639463438ab5d9b44-1",
+        "1639463438ab5d9b44-2",
+        "4aee5f67-d7d6-4f0e-9cb7-1073f40c6bc5",
+        "4fd56815-66bc-4102-918c-ac88ed897ad1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "alternate_bg_color": false,
+        "full_width": false
+      }
+    },
+    "1636734078fbce94b8": {
+      "type": "featured-product",
+      "blocks": {
+        "1636734078fbce94b8-0": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": false,
+            "show_type": false
+          }
+        },
+        "1636734078fbce94b8-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "1636734078fbce94b8-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true
+          }
+        },
+        "1636734078fbce94b8-2": {
+          "type": "price",
+          "settings": {}
+        },
+        "8e78b331-cf7b-46af-a794-f28ebbed181a": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "bold"
+          }
+        },
+        "575e4eb6-8007-4f11-afe3-16fdb45b8e7c": {
+          "type": "text",
+          "settings": {
+            "text": "Send a mom friend a FREE daily dose sample of Mama Balls to help nourish her (and baby) postpartum. Breastfeeding is hard and takes a lot of energy! That's why one daily dose of Nunona's Mama Balls provides 10% of your daily macro nutrients (cards, fat, protein) and supplies essential nutrients breastfeeding moms need in order to pass them on to baby via breastmilk. They say raising a child takes a village and there is no stronger village than one of mom's who have been there. The breastfeeding hunger is real! Now you can show up for your friend by sending her something healthy in the mail...The free sample will be one of our 7 delicious flavors!",
+            "text_style": "body"
+          }
+        },
+        "02a854e5-4475-4218-b318-f157ee0a4c84": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "bold"
+          }
+        },
+        "b9814aac-07c1-497c-a5a6-befd76a78fec": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "1636734078fbce94b8-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": true
+          }
+        },
+        "8cca9e9d-2ae8-4aa2-80cc-0648f968be58": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "83e7e080-8973-487d-a842-1e03fdfce7ba": {
+          "type": "image",
+          "settings": {
+            "image_width": 530,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636734078fbce94b8-0",
+        "1636734078fbce94b8-1",
+        "1636734078fbce94b8-4",
+        "1636734078fbce94b8-2",
+        "8e78b331-cf7b-46af-a794-f28ebbed181a",
+        "575e4eb6-8007-4f11-afe3-16fdb45b8e7c",
+        "02a854e5-4475-4218-b318-f157ee0a4c84",
+        "b9814aac-07c1-497c-a5a6-befd76a78fec",
+        "1636734078fbce94b8-5",
+        "8cca9e9d-2ae8-4aa2-80cc-0648f968be58",
+        "83e7e080-8973-487d-a842-1e03fdfce7ba"
+      ],
+      "settings": {
+        "product": "free-sample",
+        "show_backorder_text": false,
+        "slide_nav_style": "dots",
+        "enable_zoom": false,
+        "enable_video_looping": false
+      }
+    },
+    "16396142313d2db66a": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "2 Week Supply (56 Bites)",
+        "title": "Variety Pack - Nourishment Bundle - 2 Week Supply (56 Bites)",
+        "text": "<p>⭐⭐⭐⭐⭐ 34 reviews</p><p><strong>$31.50 (50% Off First Order)</strong></p><p><strong>FAST & FRESH SHIPPING</strong></p><p><strong>MADE IN USA</strong></p><p>Each serving supplies at least 10% of your daily macronutrient requirements (carbs, fat, and protein) and essential nutrients to enhance the profile of breastmilk</p><p>Nunona’s nourishment program is a commitment to you & baby, so every two weeks we’ll automatically ship you another nourishment bundle to keep you on track. </p><p>If you want to try a different flavor or if you have too many bites, you can easily change, skip, or cancel at any time.</p><p><strong>That's a 2 week supply of Nunona for only $31.50.</strong></p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/variety-pack-nourishment-box-2-week-supply",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "primary",
+        "image": "shopify://shop_images/Screen_Shot_2022-04-21_at_11.34.40_PM.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_bg": ""
+      }
+    },
+    "163946213826203117": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "1000's of Mom's Trust Nunona",
+        "title": "Recommended by Experts, Loved By Moms",
+        "text": "<p>\"Exclusive breastfeeding was hard, but I knew I wanted to keep with it, I always felt my energy was gone, and keeping up with baby's schedule was challenging - until I found Nunona. Nunona helps me stay nourished throughout the day, and helps make exclusive breastfeeding that much easier!\"</p><p>⭐⭐⭐⭐⭐, McKinzie   </p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Nunona-Web-Home-MamaMantra.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_bg": ""
+      }
+    },
+    "16367343339f4a2689": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Find Your Flavor",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "163673418493f795bb": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Shop All Flavors",
+        "collection": "mama-collection",
+        "layout": "carousel",
+        "show_vendor": false,
+        "grid": 3,
+        "rows": 1,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "163673401989d265c7": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "A Healthy Alternative to Lactation Cookies",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Lactation cookies crumble under scrutiny. Claims of increased breastmilk production aren’t evidence based and their formulations are far from healthy. Nunona’s science-backed snacks provide real ingredients which nourish Mamas and help create healthier humans. We carefully select healthy ingredients and include only what you need.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1636734022db3a3599": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-Chart-v2.jpg",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": false,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "16367340738b95fadd": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Healthy Babies Start with Healthy Mamas",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Our debut product, Mama Balls, are an industry first. Focused on nourishing new moms, our energy balls have nutrients that help support babies’ brains and body throughout their lifetime. With pre-portioned daily packs, we help take the guesswork out of getting extra energy, when it’s needed most!</p>",
+        "image_width": 120,
+        "button_label": "Try the better bite",
+        "button_link": "shopify://collections/frontpage",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "1636734443d1eeef95": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Join our healthy mama movement @nunonalife",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>We love seeing mamas helping other mamas. </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1636734422565f2e75": {
+      "type": "apps",
+      "blocks": {
+        "ea87fc67-0ef2-4378-ac93-11936cce13ea": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "ea87fc67-0ef2-4378-ac93-11936cce13ea"
+      ],
+      "disabled": true,
+      "settings": {
+        "skip_container": false
+      }
+    },
+    "16394613201c736fca": {
+      "type": "gallery",
+      "blocks": {
+        "16394613200f092912-0": {
+          "type": "image",
+          "settings": {
+            "enlarge_image": false,
+            "subheading": "Subheading",
+            "title": "Heading",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "16394613200f092912-1": {
+          "type": "image",
+          "settings": {
+            "enlarge_image": false,
+            "subheading": "Subheading",
+            "title": "Heading",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "16394613200f092912-2": {
+          "type": "image",
+          "settings": {
+            "enlarge_image": false,
+            "subheading": "Subheading",
+            "title": "Heading",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "16394613200f092912-0",
+        "16394613200f092912-1",
+        "16394613200f092912-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "grid": 3,
+        "desktop_image_height": 300,
+        "mobile_image_height": 400,
+        "title_size": 44,
+        "enable_margin": true,
+        "full_width": false,
+        "enable_carousel": true,
+        "overlay_style_tint": true,
+        "alternate_bg_color": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16367335382f027df8",
+    "16367335792138e2b4",
+    "1636733661402deb14",
+    "1636733876765044f8",
+    "1636733880fa0fac9c",
+    "16394631663f8fc4cd",
+    "163946351618425b84",
+    "16394634385cea9f5f",
+    "1636734078fbce94b8",
+    "16396142313d2db66a",
+    "163946213826203117",
+    "16367343339f4a2689",
+    "163673418493f795bb",
+    "163673401989d265c7",
+    "1636734022db3a3599",
+    "16367340738b95fadd",
+    "1636734443d1eeef95",
+    "1636734422565f2e75",
+    "16394613201c736fca"
+  ]
+}

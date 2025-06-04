@@ -1,0 +1,24 @@
+<div class="cg-media-wrap" x-data="CustomMediaGallery">
+  <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" 
+    class="swiper cg-media">
+    <div class="swiper-wrapper">
+      {% for media in medias %}
+      <div class="swiper-slide" data-media-id="{{ media.id }}">
+        <img src="{{ media | image_url: width: '900' }}" alt="{{ media.alt }}">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div thumbsSlider="" class="swiper cg-media cg-media-thumbs">
+    <div class="swiper-wrapper">
+      {% for media in medias %}
+        <div class="swiper-slide{% if forloop.first %} thumb-active{% endif %}" data-media-id="{{ media.id }}">
+          <img src="{{ media | image_url: width: '400' }}" 
+            alt="{{ media.alt }}" 
+            @click.prevent="e_SlideTo({{ forloop.index0 }})" />
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+</div>

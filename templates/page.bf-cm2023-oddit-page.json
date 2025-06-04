@@ -1,0 +1,265 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "3c0bc7b4-88a2-47a9-b679-5f3353634600": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        ".section-spacing {padding: 0;}",
+        ".overlay__content {max-width: 400px; text-align: center;}",
+        ".overlay.position--left .line-1,.overlay.position--left .line-2,.overlay.position--left .line-3 {text-align: center;}",
+        ".button {background: #000; border-color: #000;}",
+        ".rte {text-align: center; font-size: 0.8rem;}",
+        "@media (max-width: 767px) {.overlay-type {color: #fff; background: linear-gradient( 29deg, rgba(209, 45, 96, 1) 0%, rgba(211, 46, 97, 1) 99% ); }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LandingPage-banner.png",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 300,
+        "subheading": "★★★★★ Loved by 100+ Mamas",
+        "title": "Holiday savings are here Mama! \n\nSave up to 30% OFF the perfect snack for breastfeeding",
+        "title_size": 36,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "Shop Holiday Savings",
+        "image_link": "#shopify-section-template--16940789694709__ab42f877-4cb1-46e6-b1b9-699c9c7d7bc4",
+        "overlay_position": "position--left position--vcenter",
+        "full_width": false,
+        "mobile_overlay_under": true,
+        "overlay_style_tint": false
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "1601538737164-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<p>I can’t say enough about how nutritious and delicious these are for a busy nursing mama. It’s great to have something that I can quickly grab on the go and know that I’m getting some of the good stuff necessary for my newborn and myself. </p><p><strong>- Leigha B. </strong></p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Asset_2_1.png",
+            "image1_caption": ""
+          }
+        },
+        "2f397da3-8fc9-4dd5-a4aa-cc5341e0a5be": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<p></p><p>Mama Balls are a tasty and convenient way to help meet the increased energy and nutrient needs of breastfeeding. Plus they don’t require any prep and can be eaten with one hand!<br/><br/><strong>- Rachelle Mallik, MA, RD, LDN</strong></p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": ""
+          }
+        },
+        "1601538737164-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "",
+            "text": "<p>This is perfect for exactly what it's designed. A healthy quick snack that helps you nourish yourself and baby. Even now a couple months into our breastfeeding journey I find it hard to make time for healthy snacks so I'm loving this.</p><p><strong>- Sarah F. </strong></p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "1601538737164-0",
+        "2f397da3-8fc9-4dd5-a4aa-cc5341e0a5be",
+        "1601538737164-1"
+      ],
+      "settings": {
+        "title": "Recommended by Experts, Loved By Moms",
+        "button_style": "primary",
+        "alternate_bg_color": false
+      }
+    },
+    "97c04fd7-d416-4857-9163-644d38b4dbcf": {
+      "type": "image-with-text",
+      "custom_css": [
+        "@media screen and (min-width: 768px) {.image-with-text__text, .feature-header, .rte, .rte h4 {text-align: left; } .button-row, .button-row + .rte {text-align: center; }}"
+      ],
+      "settings": {
+        "subheading": "BORN TO NOURISH MAMAS & THEIR BABAS",
+        "title": "Meet Founder & Mama Krista",
+        "text": "<h4><em>Healthy babies start with healthy mamas.</em></h4><p><em>“Starting my own journey into motherhood, I soon realized the products I desired were missing, failing to cater to the modern mom's needs. <br/></em></p><p><em>This led me to create nourishing snacks from organic plant-based ingredients, free from synthetic supplements, offering a better choice for our bodies and the planet.\"</em></p>",
+        "button_label": "",
+        "button_link": "/#custom-featured-product",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/about-us.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_bg": "#ef6079"
+      }
+    },
+    "6733b851-e247-4586-b7c8-9c4c54030364": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".rimage-outer-wrapper {background-size: contain;}",
+        "@media screen and (min-width: 768px) {.image-with-text__text {flex-basis: 55%; }}"
+      ],
+      "settings": {
+        "subheading": "HOLIDAY LIMITED TIME OFFER",
+        "title": "Holiday Savings Are Here Mama - Up To 30% OFF.",
+        "text": "<p>Get up to <strong>30% OFF</strong>. We want to support you this Holiday Mama, so we're giving up to 30% OFF when you Buy in Bulk & Save.</p>",
+        "button_label": "",
+        "button_link": "#shopify-section-template--16940789694709__ab42f877-4cb1-46e6-b1b9-699c9c7d7bc4",
+        "text_alignment": "center",
+        "text_width": 44,
+        "button_style": "secondary",
+        "image": "shopify://shop_images/HolidayPromoImage_7_9fac8e2d-5f73-4227-98d1-bc8486a6835c.png",
+        "image_width": 80,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_bg": "#fed2d5"
+      }
+    },
+    "03f877ee-4aea-40fd-9959-626c665a6f44": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Step_1.png",
+            "image_width": 60,
+            "title": "Choose How Many Months You Need",
+            "text": "<p>Decide whether to get 4 weekly boxes of our Mama Balls once a month for 1, 2, or 3 months. Save up to 30%!</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Step_2.png",
+            "image_width": 60,
+            "title": "Enjoy the Variety",
+            "text": "<p>Taste our variety of flavors, crafted with love for every new mom.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Step_3.png",
+            "image_width": 60,
+            "title": "Nourish & Flourish with Every Free Delivery!",
+            "text": "<p>Your Mama Balls arrive as per your plan, packed with benefits for you and your little one.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-1",
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-2",
+        "template--16853941256437__03f877ee-4aea-40fd-9959-626c665a6f44-text_block-3"
+      ],
+      "settings": {
+        "title": "How It Works",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "alternate_bg_color": false,
+        "full_width": false
+      }
+    },
+    "1697651111da95b2dc": {
+      "type": "apps",
+      "settings": {
+        "skip_container": false
+      }
+    },
+    "163647070838dc410f": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "LIMITED TIME OFFER",
+        "title": "Join thousands of Mama's who've made the switch to Nunona, and <span class=\"color-brand\">get up to 30% OFF your Holiday Bundle.</span>",
+        "text": "",
+        "button_label": "GET YOUR BUNDLE TODAY",
+        "button_link": "#shopify-section-template--16940789694709__ab42f877-4cb1-46e6-b1b9-699c9c7d7bc4",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "primary",
+        "image": "shopify://shop_images/Untitled_design_44.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_bg": "#ffffff"
+      }
+    },
+    "1636470872b4342911": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Join the maternal nutrition movement @nunonalife",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>We love seeing mamas helping other mamas. </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1636470904be2a9d92": {
+      "type": "apps",
+      "blocks": {
+        "62b54094-5c63-4ec9-a94d-e9ccc5a6146d": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "62b54094-5c63-4ec9-a94d-e9ccc5a6146d"
+      ],
+      "settings": {
+        "skip_container": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3c0bc7b4-88a2-47a9-b679-5f3353634600",
+    "testimonials",
+    "97c04fd7-d416-4857-9163-644d38b4dbcf",
+    "6733b851-e247-4586-b7c8-9c4c54030364",
+    "03f877ee-4aea-40fd-9959-626c665a6f44",
+    "1697651111da95b2dc",
+    "163647070838dc410f",
+    "1636470872b4342911",
+    "1636470904be2a9d92"
+  ]
+}

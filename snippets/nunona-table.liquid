@@ -1,0 +1,32 @@
+{%- capture icon_cross -%}
+  <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2842_2932)"><path d="M23.4365 7.26855L6.56152 24.1436" stroke="#EF576D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M23.4365 24.1436L6.56152 7.26855" stroke="#EF576D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_2842_2932"><rect width="30" height="30" fill="white" transform="translate(-0.000976562 0.706055)"/></clipPath></defs></svg>
+{%- endcapture -%}
+{%- capture icon_check -%}
+  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.165 8.83105L12.7275 23.2686L6.16504 16.7061" stroke="white" stroke-width="2.625" stroke-linecap="round" stroke-linejoin="round"/></svg>
+{%- endcapture -%}
+
+
+<div class="nunona-compare-table">
+  <table class="container container-large">
+    <thead>
+      <tr>
+        <th></th>
+        <th style="border: 2px solid;" class="align-center">Lactation Cookies</th>
+        <th class="bg_black align-center">
+          <img class="logo-img" src="{{ 'logo-nunona-black-transparent.png' |  asset_url }}" />
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {% assign rows = 'Whole Food Plant-based|Refined Sugar Free|Healthy Fats|Clean Ingredients|Backed by Science' | split: '|' %}
+      {% for row in rows %}
+      <tr>
+        <td class="align-right">{{ row }}</td>
+        <td class="align-center">{{ icon_cross }}</td>
+        <td class="bg_black align-center">{{ icon_check }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

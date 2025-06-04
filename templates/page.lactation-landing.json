@@ -1,0 +1,371 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1638982767e1809f92": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-LP-Hero.jpg",
+        "height": "fixed",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "Lactation Cookies Crumble Under Scrutiny",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>Galactagogues just got an upgrade! Did you know that lactation cookies are filled with sugar and synthetic ingredients?</p>",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "16367335792138e2b4": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "<h1 style=\"text-align:left;\">This is Maternal\nNutrition</h1>",
+        "text": "<p>Age old ingredients revamped, help nourish your body and increase breastmilk supply. We give you only what your body needs & nothing else. Finally, a healthy lactation cookie. </p>",
+        "button_label": "Start Today",
+        "button_link": "shopify://collections/mama-collection",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "primary",
+        "image": "shopify://shop_images/Nunona-Web-Maternal-Nutrition.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_bg": "#fbd7de"
+      }
+    },
+    "1636733661402deb14": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-LP-Trust-Symbols.png",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "163673401989d265c7": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "A Healthy Alternative to Lactation Cookies",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Lactation cookies crumble under scrutiny. Cookies for enhancing breastmilk sound too good to be true? Claims of increased breastmilk production aren’t evidence based and their formulations are far from healthy. Nunona’s science-backed lactation energy bites provide real ingredients which nourish Mamas and help create healthier humans. We carefully select healthy ingredients and include only what you need.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1636734022db3a3599": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-Chart-v2.jpg",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": false,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "16367343339f4a2689": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Find Your Flavor",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1639603707c4a96070": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "2 Week Supply (56 Bites)",
+        "title": "Variety Pack - Nourishment Bundle - 2 Week Supply (56 Bites)",
+        "text": "<p>⭐⭐⭐⭐⭐ 34 reviews</p><p><strong>$31.50 (50% Off First Order)</strong></p><p><em><strong>FAST & FRESH SHIPPING </strong></em></p><p><em><strong>MADE IN USA</strong></em></p><p>Each serving supplies at least 10% of your daily macronutrient requirements (carbs, fat, and protein) and essential nutrients to enhance the profile of breastmilk</p><p>Nunona’s nourishment program is a commitment to you & baby, so every two weeks we’ll automatically ship you another nourishment bundle to keep you on track. </p><p>If you want to try a different flavor or if you have too many bites, you can easily change, skip, or cancel at any time.</p><p><strong>That's a 2 week supply of Nunona for only $31.50.</strong></p><p></p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/variety-pack-nourishment-box-2-week-supply",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "primary",
+        "image": "shopify://shop_images/Nunona_Variety_Pack_Website_Image.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_bg": ""
+      }
+    },
+    "1639613907695bb04a": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "1000's of Mom's Trust Nunona",
+        "title": "Recommended by Experts, Loved By Moms",
+        "text": "<p><strong>\"I tried lactation cookies and they didn't work at all. Tons of sugar which made me bloated and NO increase to my supply. So happy I found a whole food product that doesn't leave me feeling gross.\"</strong></p><p></p><p>⭐⭐⭐⭐ Tammy C, Customer</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/5.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_bg": ""
+      }
+    },
+    "1636734078fbce94b8": {
+      "type": "featured-product",
+      "blocks": {
+        "1636734078fbce94b8-0": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": false,
+            "show_type": false
+          }
+        },
+        "1636734078fbce94b8-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "1636734078fbce94b8-2": {
+          "type": "price",
+          "settings": {}
+        },
+        "1636734078fbce94b8-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true
+          }
+        },
+        "1636734078fbce94b8-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "1636734078fbce94b8-0",
+        "1636734078fbce94b8-1",
+        "1636734078fbce94b8-2",
+        "1636734078fbce94b8-4",
+        "1636734078fbce94b8-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "peanut-cacao-nourishment-box-2-week-supply",
+        "show_backorder_text": false,
+        "slide_nav_style": "dots",
+        "enable_zoom": false,
+        "enable_video_looping": false
+      }
+    },
+    "1636733876765044f8": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Redefining Maternal Nutrition",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Maternal nutrition affects baby for a lifetime. Essential nutrients mamas consume like omega 3 fatty acids, B-vitamins and iron help with optimal brain & body development for Baby. Nunona's bite-sized lactation energy balls are formulated by moms & scientists to support breastfeeding mamas with the essential nutrients babies need for a lifetime of health.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "1636733880fa0fac9c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-LP-Icons_393c73d5-bbf3-4317-92bc-0f2d4592e3e2.png",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "163673418493f795bb": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop All Flavors",
+        "collection": "mama-collection",
+        "layout": "carousel",
+        "show_vendor": false,
+        "grid": 3,
+        "rows": 1,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "16367340738b95fadd": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Don’t Be Fooled By Lactation Cookies, You Deserve A Better Bite",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Most lactation cookies are heavily processed and full of sugar, artificial ingredients & empty promises. There is no evidence that specific food can increase breastmilk production. However, there is evidence that whole foods with essential nutrients can improve the profile of breastmilk. That's why Nunona is made with whole food, plant-based, clean ingredients that are carefully chosen to provide essential nutrients, so you can be sure you are giving the very best to your baby.</p>",
+        "image_width": 120,
+        "button_label": "Try the better bite",
+        "button_link": "shopify://collections/mama-collection",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "164368459424308911": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "There is no magic cookie to increase your supply overnight.",
+        "title": "Mama, want to increase your breast milk supply?",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p><span style=\"text-decoration:underline\">Follow these 5 science-backed and practical tips to increase your supply naturally;</span></p><p></p><p><strong>1)</strong> Feed often and don’t skip sessions - the more milk you remove the more you will make! </p><p><strong>2)</strong> Ensure your baby has latched on and is positioned well. Look for signs that your baby is swallowing. </p><p></p><p><strong>3)</strong> Hold your baby skin-to-skin as this stimulates the production of hormones that help your body make and release breastmilk. </p><p></p><p><strong>4)</strong> Practice self care and allow others to help. Stress may negatively affect breastmilk supply. </p><p></p><p><strong>5)</strong> Drink enough fluids and nourish your body with real ingredients by eating Nunona Mama Balls. Created by Moms (& Scientists) to help you reach your goals.  </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1636734443d1eeef95": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Join our healthy mama movement @nunonalife",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>We love seeing mamas helping other mamas. </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1636734422565f2e75": {
+      "type": "apps",
+      "blocks": {
+        "ea87fc67-0ef2-4378-ac93-11936cce13ea": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "ea87fc67-0ef2-4378-ac93-11936cce13ea"
+      ],
+      "settings": {
+        "skip_container": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1638982767e1809f92",
+    "16367335792138e2b4",
+    "1636733661402deb14",
+    "163673401989d265c7",
+    "1636734022db3a3599",
+    "16367343339f4a2689",
+    "1639603707c4a96070",
+    "1639613907695bb04a",
+    "1636734078fbce94b8",
+    "1636733876765044f8",
+    "1636733880fa0fac9c",
+    "163673418493f795bb",
+    "16367340738b95fadd",
+    "164368459424308911",
+    "1636734443d1eeef95",
+    "1636734422565f2e75"
+  ]
+}

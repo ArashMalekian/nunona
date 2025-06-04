@@ -1,0 +1,549 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product_recharge_bundle_Eqay9i": {
+      "type": "product-recharge-bundle",
+      "blocks": {
+        "title_BjM9D8": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "product_subtitle_BrpJMd": {
+          "type": "product_subtitle",
+          "settings": {
+            "product_subtitle_text": "Essential nutrition for postpartum Mamas"
+          }
+        },
+        "one_week_plan_C4BntF": {
+          "type": "one-week-plan",
+          "settings": {
+            "plan_box_display": "<div class=\"product-bundle__plan-title\">\nOne Week Trial (1 Box)\n</div>\n\n<div class=\"plan-helper\">\n1 Variety Nourishment Box\n</div>\n\n<p>One-Time Purchase</p>\n<span>$34.99 per box</span>"
+          }
+        },
+        "bi_weekly_plan_fkdxUD": {
+          "type": "bi-weekly-plan",
+          "settings": {
+            "plan_highlight": "First Box Free + Save 15%",
+            "plan_box_display": "<div class=\"product-bundle__plan-title\">Bi-Weekly Plan (2 Boxes)</div>\n<div class=\"plan-helper\">Select up to 2 Flavors</div>\n<p>2 Boxes Delivered Every 2 Weeks</p>\n<span>$29.99 per box</span>",
+            "bi-weekly-plan-details": "<ul><li>Limited time deal</li><li>Lock in up to $450 in yearly savings. </li><li>Lifetime free shipping</li><li>Cancel, pause or update your order at any time.</li><li>30-day Money Back Guarantee</li></ul>"
+          }
+        },
+        "monthly_plan_JNyMVJ": {
+          "type": "monthly-plan",
+          "settings": {
+            "plan_highlight": "First Box Free + Save 30%",
+            "plan_box_display": "<div class=\"product-bundle__plan-title\">\nMonthly Plan (4 Boxes)\n</div>\n\n<div class=\"plan-helper\">\nSelect up to 4 Flavors\n</div>\n\n<p>4 Boxes Delivered Every 4 weeks</p>\n<span>$24.99 per box</span>",
+            "monthly-plan-details": "<ul><li>Limited time deal</li><li>Lock in up to $600 in yearly savings!</li><li>4x boxes shipped monthly</li><li>Lifetime free shipping</li><li>Cancel, pause or update your order at any time</li><li>30-day Money Back Guarantee</li></ul>",
+            "monthly-plan-product-url": "https://www.nunonalife.com/products/mama-balls-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "title_BjM9D8",
+        "product_subtitle_BrpJMd",
+        "one_week_plan_C4BntF",
+        "bi_weekly_plan_fkdxUD",
+        "monthly_plan_JNyMVJ"
+      ],
+      "settings": {
+        "monthly_program": false,
+        "media_style": "one-column",
+        "cart_type": "",
+        "full_width": true,
+        "sticky_product_form": true,
+        "enable_mobile_sticky_cart": false,
+        "show_backorder_text": true,
+        "show_inventory_notice": false,
+        "inventory_notice_threshold": 10,
+        "slide_nav_style": "dots",
+        "show_thumbnails": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "list_icon": "shopify://shop_images/nunona-tick-black.svg",
+        "section_bg_color": "#ffffff",
+        "plan_active_bg_color": "#fcf5ea",
+        "plan_highlight_bg_color": "#e0fa00",
+        "plan_highlight_text_color": "#211f1f",
+        "plan_select_help_color": "#211f20"
+      }
+    },
+    "1660836103678409c0": {
+      "type": "featured-product",
+      "blocks": {
+        "16608361027ea678ab-0": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "16608361027ea678ab-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "16608361027ea678ab-2": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "16608361027ea678ab-4": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true
+          }
+        },
+        "16608361027ea678ab-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "16608361027ea678ab-0",
+        "16608361027ea678ab-1",
+        "16608361027ea678ab-2",
+        "16608361027ea678ab-4",
+        "16608361027ea678ab-5"
+      ],
+      "custom_css": [
+        "button[name=\"add\"] {background-color: #e84649; color: #fff;}"
+      ],
+      "settings": {
+        "product": "variety-pack-nourishment-box-1-week-supply-28-bites",
+        "show_backorder_text": true,
+        "slide_nav_style": "dots",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "enable_video_looping": false,
+        "highlight_selected_media": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "custom_reviews": "",
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "two-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "dots",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "16605784111579f628": {
+      "type": "apps",
+      "blocks": {
+        "4992b279-1c20-43f3-8ee4-3643d8ab4641": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/bundles-widget/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}",
+            "rb_theme_color": "#e6fe55",
+            "rb_theme_text": "#211f20",
+            "rb_theme_other_text": "#283965",
+            "rb_theme_bg": "#ffffff",
+            "rb_text_size": "16px",
+            "rb_spacing_width": 1220,
+            "rb_spacing_margins": "10px",
+            "rb_buttons_size": "15px",
+            "rb_buttons_corners": "50",
+            "rb_builder_items_per_row_ns": 4,
+            "rb_builder_items_per_row": "1",
+            "rb_builder_aspect_ratio": "100%",
+            "rb_builder_radius": "4"
+          }
+        }
+      },
+      "block_order": [
+        "4992b279-1c20-43f3-8ee4-3643d8ab4641"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-top: 0; padding-bottom: 0; background-color: #fff;}",
+        ".sc--app {background-color: #fff;}"
+      ],
+      "settings": {
+        "title": "",
+        "skip_container": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "tabs_KrxKCi": {
+      "type": "tabs",
+      "custom_css": [],
+      "settings": {
+        "description_style": "accordion_closed",
+        "tab_1_page": "",
+        "tab_1_title": "Product Description",
+        "tab_1_content": "<p>An award winning postpartum snack designed to nourish new moms, support breastfeeding and provide essential nutrients for babies development.</p>",
+        "tab_2_page": "ingredients-tab",
+        "tab_2_title": "",
+        "tab_2_content": "",
+        "tab_3_page": "",
+        "tab_3_title": "How to Use",
+        "tab_3_content": "<p>Each box is a one-week supply containing 28 energy balls.</p><p>Self stable for 6 months from production date. </p>",
+        "tab_4_page": "",
+        "tab_4_title": "Shipping and Returns",
+        "tab_4_content": "<p>Free Shipping, over $75, 30 Day Money Back Subscription Guarantee, Easy Cancellation. </p>",
+        "tab_5_page": "",
+        "tab_5_title": "",
+        "tab_5_content": ""
+      }
+    },
+    "16364783342eddd031": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "16364783342eddd031-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Satisfy.png",
+            "image_width": 100,
+            "title": "",
+            "text": "<p>Satisfy breastfeeding hunger </p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16364783342eddd031-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Nutrients.png",
+            "image_width": 100,
+            "title": "",
+            "text": "<p>Essential nutrients for mom & baby</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16364783342eddd031-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Icons-Reminder.png",
+            "image_width": 100,
+            "title": "",
+            "text": "<p>Convenient reminder to eat</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16364783342eddd031-0",
+        "16364783342eddd031-1",
+        "16364783342eddd031-2"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-top: 0; padding-bottom: 20px;}",
+        ".flexible-layout .column {margin-bottom: 0;}",
+        ".use-alt-bg {color: #000;}"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "bg_color": "#ffffff",
+        "text_color": "#231f20",
+        "alternate_bg_color": true,
+        "full_width": false,
+        "text_columns_class": ""
+      }
+    },
+    "16364782805b5cd846": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Know a Mama Who Needs Nunona?",
+        "title_size": 34,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>Share a sample of our Mama Balls with someone in your mom circle and give the gift of nourishment!</p>",
+        "image_width": 120,
+        "button_label": "Share a Sample",
+        "button_link": "",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "#fbd7de",
+        "color_text": ""
+      }
+    },
+    "27f68c53-2ee8-4d2a-a82a-d94291e23b0a": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--16854529507573__27f68c53-2ee8-4d2a-a82a-d94291e23b0a-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/oats-no-bowl_cff80b6c-c8dd-40a2-a2d6-fad40fcae139.png",
+            "image_width": 120,
+            "title": "GLUTEN-FREE OATS",
+            "text": "<p>Helps regulate blood sugar levels, supporting your mood & energy levels</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "ff979005-fb61-4cef-9d0c-ce165333e63f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/nuts-no-bowl.png",
+            "image_width": 120,
+            "title": "NUT BUTTERS",
+            "text": "<p>Provides healthy fats and a good source of protein for post-birth recovery</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "b735d1b4-1236-4a44-8434-42603441fc53": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/dates-no-bowl.png",
+            "image_width": 120,
+            "title": "DATES",
+            "text": "<p>High in fiber to improve bowel movement and act as a natural sweetener</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "86d66b11-0785-49ae-9b19-bc195965adca": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/flaxseeds-no-bowl.png",
+            "image_width": 120,
+            "title": "FLAXSEEDS",
+            "text": "<p>High in plant-based Omega-3 fatty acids to help build baby’s brain</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "65c759f8-c223-4935-841e-6956ee8f77f4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/yeast-no-bowl.png",
+            "image_width": 120,
+            "title": "BREWER'S YEAST",
+            "text": "<p>Provides protein, iron and B Vitamins for cell creation & brain development.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16854529507573__27f68c53-2ee8-4d2a-a82a-d94291e23b0a-text_block-1",
+        "ff979005-fb61-4cef-9d0c-ce165333e63f",
+        "b735d1b4-1236-4a44-8434-42603441fc53",
+        "86d66b11-0785-49ae-9b19-bc195965adca",
+        "65c759f8-c223-4935-841e-6956ee8f77f4"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.text-column {display: flex; } .text-column__image {flex: 1 0 50%; }}",
+        "@media screen and (min-width: 768px) {.text-column {width: calc(100% / var(--num-columns)); }}"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "Handpicked Ingredients that Supply Essential Nutrients.",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "bg_color": "#ffffff",
+        "text_color": "#231f20",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "text_columns_class": ""
+      }
+    },
+    "506a1fb5-0f2e-4278-a1f7-7dce607104c3": {
+      "type": "image-with-text",
+      "custom_css": [
+        "@media (max-width: 767px) {.image-with-text__image {margin-top: 4rem; }}",
+        ".feature-subheader {color: #000000;}",
+        "li {list-style: none; text-align: left; margin: 15px 0; font-weight: 600;}",
+        "li strong {display: inline-block; font-weight: 900; margin-right: 5px; font-size: 1.5rem; color: #000000;}"
+      ],
+      "settings": {
+        "subheading": "WHAT THE RESEARCH SAYS",
+        "title": "How Our Mama Balls Have Helped New Moms",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>In a study* with 40 moms after 2 weeks or more of Nunona bites:</p><ul><li><strong>67% </strong>of mamas felt that Nunona helped prevent low breast milk supply.</li><li><strong>79% </strong>of mamas noticed a boost and better sustained energy throughout their day. </li><li><strong>92% </strong>of mamas reported curbed breastfeeding hunger and sugar cravings.</li></ul><p><br/>*data on file </p>",
+        "button_label": "",
+        "button_link": "",
+        "text_below": "",
+        "text_alignment": "center",
+        "text_width": 60,
+        "button_style": "auto",
+        "image": "shopify://shop_images/boxes.png",
+        "image_width": 85,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_scheme": "standard",
+        "color_bg": "#ffffff",
+        "color_text": ""
+      }
+    },
+    "e1e1ef26-39fa-42d9-a438-a4e963591a3e": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "OUR DIFFERENCE",
+        "title": "You Deserve A Better Bite",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_scheme": "standard",
+        "color_bg": "#edeae6",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "product_recharge_bundle_Eqay9i",
+    "1660836103678409c0",
+    "main",
+    "16605784111579f628",
+    "product-recommendations",
+    "tabs_KrxKCi",
+    "16364783342eddd031",
+    "16364782805b5cd846",
+    "27f68c53-2ee8-4d2a-a82a-d94291e23b0a",
+    "506a1fb5-0f2e-4278-a1f7-7dce607104c3",
+    "e1e1ef26-39fa-42d9-a438-a4e963591a3e"
+  ]
+}

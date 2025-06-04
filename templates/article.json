@@ -1,0 +1,176 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "featured_image": "wide",
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "blog_show_social": true
+      }
+    },
+    "163647876689efbb21": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Build-a-Bundle",
+        "collection": "build-a-bundle",
+        "layout": "columns",
+        "show_vendor": false,
+        "grid": 3,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "featured_product_6YbYQy": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_and_type_qRHLwT": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title_3ayD8b": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_xMRTQh": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating_KRtyay": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker_Q4Xeez": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true
+          }
+        },
+        "buy_buttons_yyLzEh": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type_qRHLwT",
+        "title_3ayD8b",
+        "price_xMRTQh",
+        "rating_KRtyay",
+        "variant_picker_Q4Xeez",
+        "buy_buttons_yyLzEh"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "variety-pack-nourishment-box-1-week-supply-28-bites",
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "enable_video_looping": false,
+        "highlight_selected_media": true
+      }
+    },
+    "featured_product_cpEGVe": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_and_type_dLG97d": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title_PAxdnz": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_dKYN3h": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating_ttCPG6": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker_zkmxbK": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true
+          }
+        },
+        "buy_buttons_NrFpVD": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type_dLG97d",
+        "title_PAxdnz",
+        "price_dKYN3h",
+        "rating_ttCPG6",
+        "variant_picker_zkmxbK",
+        "buy_buttons_NrFpVD"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "",
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "enable_video_looping": false,
+        "highlight_selected_media": true
+      }
+    },
+    "custom_featured_product_wGKQxa": {
+      "type": "custom-featured-product",
+      "disabled": true,
+      "settings": {
+        "custom_product": "mama-balls-4-boxes",
+        "custom_product_subtitle": "",
+        "custom_product_btn_text": "Get Started",
+        "custom_product_url": "https://www.nunonalife.com/products/mama-balls-2-boxes/?product=bundle&step=1",
+        "section_bg_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163647876689efbb21",
+    "featured_product_6YbYQy",
+    "featured_product_cpEGVe",
+    "custom_featured_product_wGKQxa"
+  ]
+}

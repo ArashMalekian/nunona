@@ -1,0 +1,475 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1636661805147ef783": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "<h1 style=\"text-align:left;\">5 Ways Nunona helps you stop supply problems before they start\n</h1>",
+        "text": "<p><em>Because Healthy Babies Start with Healthy Mamas</em></p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Screen_Shot_2022-02-21_at_3.37.46_PM.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_bg": "#fbd7de"
+      }
+    },
+    "16530211959fa46c1a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-Home-Trust-Symbols.png",
+        "height": "natural",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "16454868077007b568": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "1. THIS is the moment",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>Nourishment during the postpartum period is critical for both mama and baby, setting the stage for lifelong health. <a href=\"https://thousanddays.org/resource/nourishing-americas-future/\" target=\"_blank\">Good nutrition during the first 1000 days</a>, from conception until two years of age has benefits that may last a lifetime.<br/><br/>It not only provides the essential building blocks for brain development, healthy growth, and a strong immune system, but also lays the foundations for lifelong health.  </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "16454872668f0feb1a": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "2. It’s all from mama",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>Did you know that 45% of the sole source of nutrition for a baby is via the mother during the first 1000 days?  Mamas need the right nourishment in order to pass along essential nutrition to their babies in utero and while breastfeeding.</p><p> Nursing mamas<a href=\"https://pubmed.ncbi.nlm.nih.gov/27093946/\" target=\"_blank\"><span style=\"text-decoration:underline\"> need an additional 500 calories</span></a> postpartum to help produce breast milk! Yet self care can be difficult postpartum as you are so focused on the baby.  It’s hard to find time to properly nourish yourself. Nunona makes that easier (and frankly, more delicious). </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1645487338d957b08d": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "3. Your diet affects your breastmilk",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>Optimizing your dietary intake will optimize the nutrient benefits delivered to your baby through breast milk.  Maternal nutrition can affect the quantity of some nutrients in your breastmilk (i.e. vitamin A, B6, B12 and folate; iodine; selenium and fatty acids such as DHA.Some B-vitamins and DHA play a role in brain development.</p><p>Nunona Mama Balls contain important essential nutrients including omega 3, iron and B-vitamins so that you can transfer them to your baby. </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1645487387f22183d2": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "4. You can stop a problem before it starts",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>Why wait until there’s a problem to start taking care of yourself? Help stop supply problems before they start. </p><p>Mamas need proper nourishment before ‘supply’ problems set in. Proper nutrition, support and feeding frequency can actually prevent breastfeeding challenges, and help you reach your breastfeeding goals - whatever they may be.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "164548741861e99b86": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "5. Be part of the solution",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>What we do now affects future generations, and that’s why Nunona was founded on three principles: Nurture, nourish and nature.  While there may not be a science to being a mom, there is science behind health.</p><p> We are all on this journey together and by nurturing minds, nourishing bodies and living a sustainable lifestyle with plant-based foods to reduce our impact on the environment, we will be able to collectively create a generation of healthier humans for a healthier planet.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "1645487483ff2f4f44": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "6. What you eat changes the flavor of your breast milk",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/28165384/\" target=\"_blank\">According to a study</a>, repeated experiences with novel flavors during breastfeeding increase children’s willingness to try new foods. This may help avoid picky eating, and is why Nunona offers a range of flavor profiles from savory matcha to fresh citrus and sweet cacao. </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1645487540fcfb6afe": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "7. You can stop a problem before it starts",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>Why wait until there’s a problem to start taking care of yourself? Help stop supply problems before they start. Mamas need proper nourishment before ‘supply’ problems set in. Proper nutrition, support and feeding frequency can actually prevent breastfeeding challenges, and help you reach your breastfeeding goals – whatever they may be.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "16454875696be7668a": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "8. Convenience for all",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>Postpartum care is about more than just benefits for baby. YOU matter, too, and Nunona formulated their products with mama in mind. With ten percent of your daily macronutrients per daily dose, you get easy access to organic, whole food nutrition including protein and Omega 3 to assist with postpartum recovery. Helping you take care of yourself mentally and physically benefits your baby whether you breastfeed, formula feed or land somewhere in the middle!</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1645487631f378f234": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "9. Be part of the solution",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>What we do now affects future generations, and that’s why Nunona was founded on three principles: Nurture, nourish and nature.  “While there may not be a science to being a mom,” the Nunona team says, “there is science behind health. We are all on this journey together and by nurturing minds, nourishing bodies and living a sustainable lifestyle with plant-based foods to reduce our impact on the environment, we will be able to collectively create a generation of healthier humans for a healthier planet”.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "16366618028885594d": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Meet Nunona - Real Food Nutrition for New Mamas",
+        "title_size": 34,
+        "heading_h1": true,
+        "text": "<p>Meet Nunona - a whole food plant-based (evidence-based!) maternal and infant nutrition company. We're here to translate science into solutions to help create healthier humans, for a healthier planet.  </p><p>Snacks today for Mama, lifelong health for baby. Nunona’s debut product, Mama Balls, is an industry first. Focused on nourishing new moms, Nunona’s energy balls have nutrients that help support babies’ brains and body throughout their lifetime. </p><p>With pre-portioned daily packs, Nunona helps take the guesswork out of getting extra energy, when it’s needed most!</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "1636663302280f666e": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "[Limited Time Offer] Get Your First Week of Nunona FREE!",
+        "text": "<p>The science is clear that the quality of your diet impacts the profile of your breastmilk.  </p><p></p><p>Nunona’s nourishment program is a commitment to you & baby, so every two weeks we’ll automatically ship you another nourishment bundle to keep you on track. </p><p><strong>That's a 2 week supply of Nunona for only $31.50.</strong></p><p></p><p><strong>Use Code: Firstboxfree</strong></p><p></p>",
+        "button_label": "",
+        "button_link": "shopify://collections/mama-collection",
+        "text_alignment": "left",
+        "text_width": 70,
+        "button_style": "primary",
+        "image": "shopify://shop_images/Nunona-Web-Stacked-Boxes.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_bg": "#fbd7de"
+      }
+    },
+    "16530206786cfa333a": {
+      "type": "featured-product",
+      "blocks": {
+        "1653020678a1e2a46d-0": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "1653020678a1e2a46d-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "1653020678a1e2a46d-2": {
+          "type": "price",
+          "settings": {}
+        },
+        "1653020678a1e2a46d-4": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true
+          }
+        },
+        "13bd8626-dad3-4191-ba48-34a5a5a56d0b": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>An award winning postpartum snack designed to nourish new moms and provide essential nutrients for babies development. </p><p><strong>Because Healthy Babies Start with Healthy Mamas!</strong></p><p><strong>First Box Free when you sign up a $31.50 Value. </strong></p>"
+          }
+        },
+        "1653020678a1e2a46d-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true
+          }
+        },
+        "8e6d770b-b38e-440f-9c55-26375da7c0f0": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>- Free Shipping<br/>- Easy Cancellation<br/>- Made in USA</p><p><strong>How It Works </strong>$31.50/box, ships every two weeks as a two-box set. After your first two boxes, that's $63.00 for each two-week supply. Shipping is always free.</p><p>Want to try a different flavor? Find yourself with too many bites? No worries! You can you easily change, skip, or cancel at any time. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653020678a1e2a46d-0",
+        "1653020678a1e2a46d-1",
+        "1653020678a1e2a46d-2",
+        "1653020678a1e2a46d-4",
+        "13bd8626-dad3-4191-ba48-34a5a5a56d0b",
+        "1653020678a1e2a46d-5",
+        "8e6d770b-b38e-440f-9c55-26375da7c0f0"
+      ],
+      "settings": {
+        "product": "variety-pack-nourishment-box-2-week-supply",
+        "show_backorder_text": true,
+        "slide_nav_style": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "1653021068f06a3535": {
+      "type": "apps",
+      "settings": {
+        "skip_container": false
+      }
+    },
+    "163666222254d87d5a": {
+      "type": "slideshow",
+      "blocks": {
+        "88bf88c6-59e1-409d-9f87-0f0320736329": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Slider-Mom_778d7753-2127-4110-84f2-e1f2f09bb6bd.jpg",
+            "mobile_image": "shopify://shop_images/Nunona-Web-Ingredients.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Healthy Babies Start With Healthy Mamas",
+            "title_size": 36,
+            "heading_h1": false,
+            "text": "<p>Our carefully crafted snacks are made with organic, plant-based whole food ingredients that supply essential nutrients to help nourish new mamas & babas.<br/><br/>Our flavors come directly from REAL superfoods. </p><p>Scroll through to check out their benefits!</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--left position--vcenter"
+          }
+        },
+        "163666222254d87d5a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Cocoa_0dbd4c97-ea2a-4991-9048-11310aa11571.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 20,
+            "heading_h1": false,
+            "text": "<p><strong>COCOA</strong><br/>Anti-inflammatory, contains antioxidants &<br/>helps to modulate intestinal microbiota.</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        },
+        "71821c21-f0b0-4ffa-8097-6c952b02ad48": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Coconut.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "heading_h1": false,
+            "text": "<p><strong>COCONUT</strong></p><p>Nutrient dense and high in fiber &<br/>antioxidants and cell protection benefits.</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        },
+        "163666222254d87d5a-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Lemon.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "heading_h1": false,
+            "text": "<p><strong>LEMON</strong></p><p>Helps to energize and uplift.</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        },
+        "3a2da6d7-157b-42ed-948c-b72835637fa7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Matcha.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "heading_h1": false,
+            "text": "<p><strong>MATCHA</strong></p><p>Antioxidant and anti-inflammatory & potential<br/>benefits on physical and mental health.</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        }
+      },
+      "block_order": [
+        "88bf88c6-59e1-409d-9f87-0f0320736329",
+        "163666222254d87d5a-0",
+        "71821c21-f0b0-4ffa-8097-6c952b02ad48",
+        "163666222254d87d5a-1",
+        "3a2da6d7-157b-42ed-948c-b72835637fa7"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 780,
+        "height_mobile": 600,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "slide_transition": "slide",
+        "slide_navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 3
+      }
+    },
+    "1636663637bd558cf7": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Born to Nourish Mamas & Their Babas",
+        "text": "<p>As a former head of global marketing and innovation at pharmaceutical and nutritional companies, I knew the depth the infant nutrition industry goes to in order to support babies, but I was shocked by the lack of nutritional support for moms. When I began my own motherhood journey, I quickly realized the products I wanted didn’t exist and the market wasn't meeting the needs of the modern mom.<br/><br/>Knowing the importance of maternal nutrition and the direct impact it has on a baby’s health, I decided to make my own nutrient-packed snacks from organic plant-based, whole food ingredients without the use of synthetic supplements because this is better for our bodies and for our planet. <br/><br/>One of the best gifts you can give your child is a lifetime of health. That’s why I am on a mission to help all mamas on their journey. Nunona is dedicated to empowering you with the nutrition you need to create healthier humans for a healthier planet.</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Nunona-Web-Krista_fcf6c2f0-a7c2-4299-9bcf-ed3b90dccf0e.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_bg": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1636661805147ef783",
+    "16530211959fa46c1a",
+    "16454868077007b568",
+    "16454872668f0feb1a",
+    "1645487338d957b08d",
+    "1645487387f22183d2",
+    "164548741861e99b86",
+    "1645487483ff2f4f44",
+    "1645487540fcfb6afe",
+    "16454875696be7668a",
+    "1645487631f378f234",
+    "16366618028885594d",
+    "1636663302280f666e",
+    "16530206786cfa333a",
+    "1653021068f06a3535",
+    "163666222254d87d5a",
+    "1636663637bd558cf7"
+  ]
+}

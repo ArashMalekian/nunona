@@ -1,0 +1,323 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_dwhV3t": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "7 delicious flavors that nourish and satisfy",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 270,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "no_padding_top": false,
+        "color_scheme": "custom",
+        "color_bg": "#ffffff",
+        "color_text": ""
+      }
+    },
+    "image_with_text_yktEbD": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "<em class=\"ff-libre-baskerville-regular-italic\">7 delicious flavors </em>  that nourish and satisfy.",
+        "title_size": 56,
+        "title_width": 12,
+        "text": "<p>Providing energy and essential nutrients for mom to help babies create happy and healthy cells, for life.</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_below": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Large-Square-Image_02.jpg",
+        "image_width": 75,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_scheme": "custom",
+        "color_bg": "#211f20",
+        "color_text": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_FmGDxK": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/DWeb_HandBanner.jpg",
+        "height": "natural",
+        "height_desktop": 250,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 70,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "text_below": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "text_columns_with_images_nVqrYT": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_Egd6dM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Flavor-IMG-1.png",
+            "image_width": 280,
+            "title": "Peanut Cacao",
+            "text": "<p>Tastes like a no bake cookie. </p><p><a href=\"/products/mama-balls-4-boxes\" title=\"Mama Bites Pre+Postnatal Supplement\"><strong>SHOP</strong></a></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_6Mr33T": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Flavor-IMG.png",
+            "image_width": 280,
+            "title": "Peanut Berry",
+            "text": "<p>Tastes like a grown up PB+J. </p><p><a href=\"/products/mama-balls-4-boxes\" title=\"Mama Bites Pre+Postnatal Supplement\"><strong>SHOP</strong></a></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_df8UY4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Flavor-IMG-2.png",
+            "image_width": 280,
+            "title": "Almond Coconut",
+            "text": "<p>Tastes like a tropical holiday. </p><p><a href=\"/products/mama-balls-4-boxes\" title=\"Mama Bites Pre+Postnatal Supplement\"><strong>SHOP</strong></a></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_iJEfBx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Flavor-IMG-4.png",
+            "image_width": 280,
+            "title": "Cashew Lemon",
+            "text": "<h5></h5><p>Tastes like happiness. </p><p><a href=\"/products/mama-balls-4-boxes\" title=\"Mama Bites Pre+Postnatal Supplement\"><strong>SHOP</strong></a></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_9h4tcq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Flavor-IMG-5.png",
+            "image_width": 280,
+            "title": "Cashew Blueberry",
+            "text": "<h5></h5><p>Tastes like blueberry pie. </p><p><a href=\"/products/mama-balls-4-boxes\" title=\"Mama Bites Pre+Postnatal Supplement\"><strong>SHOP</strong></a></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_CYRPkD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Flavor-IMG-3.png",
+            "image_width": 280,
+            "title": "Cashew Matcha",
+            "text": "<p>Tastes like a matcha latte, only more filling. </p><p><a href=\"/products/mama-balls-4-boxes\" title=\"Mama Bites Pre+Postnatal Supplement\"><strong>SHOP</strong></a></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_qn47P6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Flavor-IMG.png",
+            "image_width": 280,
+            "title": "Almond Cherry",
+            "text": "<p>Tastes like a tart cherry pie. </p><p><a href=\"/products/mama-balls-4-boxes\" title=\"Mama Bites Pre+Postnatal Supplement\"><strong>SHOP</strong></a></p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Egd6dM",
+        "text_block_6Mr33T",
+        "text_block_df8UY4",
+        "text_block_iJEfBx",
+        "text_block_9h4tcq",
+        "text_block_CYRPkD",
+        "text_block_qn47P6"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "Our Flavors",
+        "text_alignment": "center",
+        "button_style": "link",
+        "media_shape": "natural",
+        "bg_color": "#ffffff",
+        "text_color": "#231f20",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "text_columns_class": ""
+      }
+    },
+    "image_with_text_overlay_endbmz": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Image-Banner_02.jpg",
+        "height": "fixed",
+        "height_desktop": 350,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "Join Other Moms",
+        "title_size": 70,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "text_below": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "rich_text_LpW77a": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Build-a-bundle and try all our flavors today!",
+        "title_size": 50,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 120,
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/mama-balls-4-boxes",
+        "button_style": "secondary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "no_padding_top": false,
+        "color_scheme": "custom",
+        "color_bg": "#fef5e9",
+        "color_text": ""
+      }
+    },
+    "slideshow_HUAAFF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NVrCrQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TextBanner_DWeb.jpg",
+            "mobile_image": "shopify://shop_images/TextBanner_MWeb.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "image_NVrCrQ"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "max_width": false,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "image_with_text_TAjH7F": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [
+        ".button {background: #e6fe55; border: none;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Build Your Bundle",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>Get your first box FREE when you subscribe today!</p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/mama-balls-4-boxes",
+        "text_below": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Large-Square-Image_01.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "alt",
+        "color_bg": "#a0669d",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_dwhV3t",
+    "image_with_text_yktEbD",
+    "image_with_text_overlay_FmGDxK",
+    "text_columns_with_images_nVqrYT",
+    "image_with_text_overlay_endbmz",
+    "rich_text_LpW77a",
+    "slideshow_HUAAFF",
+    "image_with_text_TAjH7F"
+  ]
+}

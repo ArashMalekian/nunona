@@ -1,0 +1,169 @@
+<div class="product-detail__tab-container product-detail__gap-lg">
+  {% for block in section.blocks %}
+  {% endfor %}
+  {%- liquid
+    assign tab1_title = section.settings.tab_1_title
+    assign tab1_content = section.settings.tab_1_content
+    assign tab2_title = section.settings.tab_2_title | default: pages[section.settings.tab_2_page].title
+    assign tab2_content = section.settings.tab_2_content | default: pages[section.settings.tab_2_page].content
+    assign tab3_title = section.settings.tab_3_title | default: pages[section.settings.tab_3_page].title
+    assign tab3_content = section.settings.tab_3_content | default: pages[section.settings.tab_3_page].content
+    assign tab4_title = section.settings.tab_4_title | default: pages[section.settings.tab_4_page].title
+    assign tab4_content = section.settings.tab_4_content | default: pages[section.settings.tab_4_page].content
+    assign tab5_title = section.settings.tab_5_title | default: pages[section.settings.tab_5_page].title
+    assign tab5_content = section.settings.tab_5_content | default: pages[section.settings.tab_5_page].content
+
+    assign description_style = section.settings.description_style
+    assign accordion_is_closed = false
+
+    if section.settings.description_style == "accordion_closed"
+      assign accordion_is_closed = true
+      assign description_style = "accordion"
+    endif
+  -%}
+
+  {% render "tabs",
+    product: product,
+    display_type: description_style,
+    show_reviews: settings.enable_reviews,
+    accordion_is_closed: accordion_is_closed,
+    tab1_title: tab1_title,
+    tab1_content: tab1_content,
+    tab2_title: tab2_title,
+    tab2_content: tab2_content,
+    tab3_title: tab3_title,
+    tab3_content: tab3_content,
+    tab4_title: tab4_title,
+    tab4_content: tab4_content,
+    tab5_title: tab5_title,
+    tab5_content: tab5_content
+  %}
+</div>
+
+{% schema %}
+{
+  "name": "Tabs",
+  "settings": [
+    {
+      "type": "select",
+      "id": "description_style",
+      "label": "Display style",
+      "default": "accordion",
+      "options": [
+        {
+          "value": "accordion",
+          "label": "Expandable tabs - first one opened"
+        },
+        {
+          "value": "accordion_closed",
+          "label": "Expandable tabs - closed"
+        },
+        {
+          "value": "tab",
+          "label": "Horizontal tabs"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Tab 1"
+    },
+    {
+      "type": "page",
+      "id": "tab_1_page",
+      "label": "Content from page"
+    },
+    {
+      "type": "text",
+      "id": "tab_1_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_1_content",
+      "label": "Content"
+    },
+    {
+      "type": "header",
+      "content": "Tab 2"
+    },
+    {
+      "type": "page",
+      "id": "tab_2_page",
+      "label": "Content from page"
+    },
+    {
+      "type": "text",
+      "id": "tab_2_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_2_content",
+      "label": "Content"
+    },
+    {
+      "type": "header",
+      "content": "Tab 3"
+    },
+    {
+      "type": "page",
+      "id": "tab_3_page",
+      "label": "Content from page"
+    },
+    {
+      "type": "text",
+      "id": "tab_3_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_3_content",
+      "label": "Content"
+    },
+    {
+      "type": "header",
+      "content": "Tab 4"
+    },
+    {
+      "type": "page",
+      "id": "tab_4_page",
+      "label": "Content from page"
+    },
+    {
+      "type": "text",
+      "id": "tab_4_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_4_content",
+      "label": "Content"
+    },
+    {
+      "type": "header",
+      "content": "Tab 5"
+    },
+    {
+      "type": "page",
+      "id": "tab_5_page",
+      "label": "Content from page"
+    },
+    {
+      "type": "text",
+      "id": "tab_5_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_5_content",
+      "label": "Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tabs"
+    }
+  ]
+}
+{% endschema %}

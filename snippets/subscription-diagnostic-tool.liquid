@@ -1,0 +1,254 @@
+<!-- Start ReCharge Debug - Version: 1.3 -->
+{% if template.name != 'cart' %}
+
+<div id="myModal" class="modal">
+<div class="modal-content">
+  <div class="modal_header">
+    <img class="modal_header_icon"alt="" src="https://rechargepayments.com/assets/images/media-kit/RCP-full-logo-white.svg"/>
+    <div class="modal_header_title">- Diagnostic Tool</div>
+    <span class="close">&times;</span>
+  </div>
+  <div class="modal_information">
+    <p></p>
+  </div>
+  <div class="modal_body">
+    <h4></h4>
+    <ul id="diagnostic_list">
+    </ul>
+  </div>
+    <ul id="details_list">
+      <li id="bold_present"></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="https://admin.rechargeapps.com/s?query={{shop.permanent_domain}}">Open this store on search</a></li>
+      <li>You're seeing the {%if template.name == 'index' %}Homepage{%else%}{{template.name}}{%endif %} page.</li>
+    </ul>
+</div>
+</div>
+
+<style>
+.modal{display:none;position:fixed;z-index:1;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,.4)}.modal_header{padding:8px;background-color:#4e4e4e}.modal_header_icon{width:120px;vertical-align:middle}.modal_header_title{display:inline-block;vertical-align:middle;color:#fff;line-height:31px}.modal_information p.information{padding:20px;background-color:#3901F1}.modal_information p.success{padding:20px;background-color:#4dd6b7;font-weight:500}.modal_information p{color:#fff;font-weight:600;font-size:16px}.modal_body{min-height:80px;margin:20px}.modal-content{background-color:#fefefe;margin:15% auto;border:1px solid #888;width:80%}#diagnostic_list li{list-style:disc;margin:20px;font-size:17px}.close{color:#aaa;float:right;font-size:28px;font-weight:700;margin-right:10px;margin-top:-5px}.close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer}.modal,h4,p{font-family:Raleway}#details_list{padding:20px;border-top:1px solid #B6B6BD}#details_list a{color:#191D48;font-size:17px}#details_list li{list-style:none;font-size:17px}#bold_present{color:red}
+</style>
+
+<script>
+
+let modal_info_text = document.querySelector('.modal_information p');
+let close_cross = document.getElementsByClassName("close")[0];
+let modal = document.getElementById('myModal');
+let error_list = document.getElementById('diagnostic_list');
+let details_list = document.getElementById('details_list');
+let issue_detected = false;
+let show_information = false;
+
+close_cross.onclick = function() {
+  modal.style.display = "none";
+}
+
+function add_message_modal_information( message, styles ){
+  modal_info_text.classList.add(styles);
+  modal_info_text.innerText = message;
+}
+
+function create_and_add_error_element( message ){
+  let error_li = document.createElement("li");
+  let error_text = document.createTextNode(message);
+  error_li.appendChild(error_text);
+  error_list.appendChild(error_li);
+  issue_detected = true;
+}
+
+function add_detail_element( message ){
+  let detail_element = document.createElement("li");
+  let detail_text = document.createTextNode(message);
+  detail_element.appendChild(detail_text);
+  details_list.appendChild(detail_element);
+}
+
+function showDiagnostic(issue_detected){
+  if(issue_detected){
+    let el = document.querySelector('.modal_body h4');
+    el.innerText = "Issues to be resolved:";
+  }
+  modal.style.display = "block";
+  modal.style.opacity = "1";
+}
+
+let parameters = new URL(window.location).searchParams;
+if(parameters.get("debug")){
+  {%-capture is_recurring_product -%}{%if product.metafields.subscriptions.subscription_id %}true{%else%}false{%endif%}{%-endcapture-%}
+  let is_recurring_product = {{is_recurring_product}};
+  if(!is_recurring_product){
+    let message_text = "INFORMATION: This is NOT a recurring product or the properties are not synced properly. Check the subscription rules.";
+    show_information = true;
+    add_message_modal_information(message_text, 'information');
+    showDiagnostic(issue_detected);
+  }else{
+    let recharge_installed = false;
+    let recharge_enabled = false;
+    {%-capture recharge_installed -%} {{ shop.metafields.subscriptions.subscription_active }}{%-endcapture-%}
+    {% if recharge_installed == '' %}
+    recharge_installed = false;
+    let app_alert = "INSTALLATION RELATED: The metafield inserted during the installation is not present. Check if the app is installed in the store and is the metafield is inserted correctly.";
+    create_and_add_error_element(app_alert);
+    {% else %}
+    recharge_installed = true;
+    recharge_enabled = {{recharge_installed}};
+    {% endif %}
+
+    let recharge_paramenter = parameters.get("recharge") || false;
+
+    if(recharge_paramenter == false && recharge_enabled == false && recharge_installed == true){
+      let message_text = "INFORMATION: This is a recurring product and ReCharge is not enabled in the store yet so to be able to see the widget please add the ?recharge=true at the end of the URL.";
+      show_information = true;
+      add_message_modal_information(message_text, 'information');
+    }
+
+    {% if theme.name contains 'Loft' or theme.name contains 'Prestige' %}
+    let theme_alert = "THEME RELATED: The theme used in this store is {{theme.name}} and require custom code to work properly with ReCharge. Contact the integration team for more details.";
+    create_and_add_error_element(theme_alert);
+    {% endif %}
+
+    {% capture snippet_product %}{% include 'subscription-product' %}{% endcapture %}
+    {% capture snippet_theme %}{% include 'subscription-cart-footer' %}{% endcapture %}
+    {% capture snippet_cart %}{% include 'subscription-theme-footer' %}{% endcapture %}
+
+    {% if snippet_product contains "Liquid error" or snippet_cart contains "Liquid error" or snippet_theme contains "Liquid error" %}
+    let snippet_alert = "FILES RELATED: Not all the ReCharge snippets are inserted into the theme. Complete the integration before testing.";
+    create_and_add_error_element(snippet_alert);
+    {% endif %}
+
+    {%-capture recurring_property_frequency -%}{%if product.metafields.subscriptions.shipping_interval_frequency %}true{%else%}false{%endif%}{%-endcapture-%}
+    {%-capture recurring_property_frequency_type -%}{%if product.metafields.subscriptions.shipping_interval_unit_type %}true{%else%}false{%endif%}{%-endcapture-%}
+
+    if(!{{recurring_property_frequency}} || !{{recurring_property_frequency_type}}){
+      let snippet_alert = "PRODUCT ISSUE: Not all the ReCharge properties for this product are synced correctly. Product has to be re-synced.";
+      create_and_add_error_element(snippet_alert);
+    }
+
+    {% capture snippet_bold %}{% include 'bold-ro' %}{% endcapture %}
+    {% unless snippet_product contains "Liquid error" %}
+    let snippet_alert = "COMPETITOR WARNING: One of the Bold snippets is inserted in the theme.";
+    let detail_element = document.querySelectorAll("#bold_present");
+    detail_element[0].textContent = snippet_alert;
+    {% endunless %}
+
+    {% assign more_variants_added = false %}
+    {% assign recurring_variants = 0 %}
+    {% capture original_variants %}{{ product.variants | size }}{% endcapture %}
+
+    {% for variant in product.variants %}
+    {% if variant.metafields.subscriptions.discount_variant_id != nil %}
+    {% capture recurring_variants %}{{ recurring_variants | plus: 1 }}{% endcapture %}
+    {% endif %} 
+    {% endfor %}
+
+    {% if original_variants != recurring_variants %}
+    let error_text = "VARIANT ISSUE: At least one variant was added into the original product. Product has to be re-synced.";
+    create_and_add_error_element(error_text);
+    {% assign more_variants_added = true %}
+    {% endif %}
+
+    {% unless more_variants_added %}
+    let variants_match = { {% for variant in product.variants %}{{ variant.id }}:'{{ variant.metafields.subscriptions.discount_variant_id }}', {% endfor %}};
+    let variants_original = { {% for variant in product.variants %}{{ variant.id }}:'{{ variant.price }}', {% endfor %} };
+    let variants_duplicated  = { {% for variant in product.variants %}{{ variant.metafields.subscriptions.discount_variant_id }}: '{{ variant.metafields.subscriptions.discount_variant_price | replace: ".", "" }}', {% endfor %} };
+    let discount_percentage = (100 - {{ product.metafields.subscriptions.discount_percentage }}) / 100;
+
+    let price_changed = false;
+    Object.keys(variants_match).forEach(function(key,index) {
+      let value = variants_match[key];
+      let original_price =  variants_original[key];
+      let duplicated_price = variants_duplicated[value];
+      if((Math.round(original_price * discount_percentage)) != duplicated_price){
+        price_changed = true;
+      }
+    });
+    if(price_changed){
+      let error_text = "PRICE ISSUE: The price for at least one of the variants for the original product changed. Product has to be re-synced.";
+      create_and_add_error_element(error_text);
+    }
+    {% endunless %}
+
+    document.addEventListener("DOMContentLoaded", function() {
+      
+      {% unless snippet_product contains "Liquid error" %}
+      let widget_checker = document.querySelectorAll('#rc_container');
+      if(widget_checker.length > 0){
+        add_detail_element("ReCharge widget version is 3.0 or higher.");
+      }else{
+        add_detail_element("ReCharge widget version is older than 2.5. Consider an update");
+      }
+      {% endunless %}
+      
+      let script_checker = document.documentElement.getElementsByTagName('head')[0].innerHTML.indexOf('recharge.js') > -1;
+      if (!script_checker){
+        let error_text = "The ScriptTag is not inserted on the store.";
+        create_and_add_error_element(error_text);
+      }
+
+      let forms_elements = document.querySelectorAll('form[action="/cart/add"]');
+      let form_product_exist = false;
+      let same_form_count = 0;
+      if(forms_elements.length > 0){
+        forms_elements.forEach(function(element){
+          let product_id = element.getAttribute("data-productid");
+          if(product_id == {{product.id}}){
+           form_product_exist = true;
+           same_form_count += 1;
+         }
+        });
+        
+        if(!form_product_exist){
+          let error_text = "LAYOUT ISSUE: Product page have at least one form element for products but non of them has the attribute data-productid for the product. Check the product page structure and notify the client about it.";
+          create_and_add_error_element(error_text);
+        }else{
+          let form_product = document.querySelectorAll('form[action="/cart/add"][data-productid="{{product.id}}"] #rc_container');
+          if(form_product.length == 0){
+            let error_text = "WIDGET ISSUE: The form for the product called {{product.title}} doesn't have added the ReCharge widget";
+            create_and_add_error_element(error_text);
+          }
+        }
+
+        if(same_form_count > 1){
+          let error_text = "LAYOUT WARNING: Product page have more than one form element for the same product. Check the product page structure and notify the client about it.";
+          create_and_add_error_element(error_text);
+        }
+
+        let variant_element = document.querySelectorAll('form[action="/cart/add"] [name="id"]');
+        if(variant_element.length == 0){
+          let error_text = "LAYOUT ISSUE: Product page doesn't have any element with the attribute name='id' to contain the product variants. Check the product page structure and notify the client about it.";
+          create_and_add_error_element(error_text);
+
+          let variant_array_element = document.querySelectorAll('form[action="/cart/add"] [name="id[]"]');
+          if (variant_array_element.length > 0 ){
+            let error_text = "LAYOUT ISSUE: The element to contain the variants has the attribute name='id[]' and this array element is not supported. Check the product page structure and notify the client about it.";
+            create_and_add_error_element(error_text);
+          };
+        }else{
+          let variant_element_ready = document.querySelectorAll('form[action="/cart/add"] [name="id"][data-productid="{{product.id}}"]');
+          if (variant_element_ready.length == 0){
+            let error_text = "LAYOUT ISSUE: Product page have at least one element with the attribute name='id' but non of them has the attribute data-productid for the product. Check the product page structure and notify the client about it.";
+            create_and_add_error_element(error_text);
+          }else{
+            if (variant_element_ready.length > 1){
+              let error_text = "LAYOUT ISSUE: Product page has "+variant_element_ready.length+" element with the attribute name='id' for the same product. Check the product form and fix it.";
+              create_and_add_error_element(error_text);
+            };
+          };
+        }
+      }else{
+        let error_text = "LAYOUT ISSUE: Product page doesn't have a form element to add the ReCharge widget. Check the product page structure and notify the client about it.";
+        create_and_add_error_element(error_text);
+      }
+
+      if(!issue_detected && !show_information){
+        let message_text = "SUCESS: No issues found it. If the integration is not working please contact the integration team to debug deeper.";
+        add_message_modal_information(message_text, 'success'); 
+      }
+      showDiagnostic(issue_detected);
+    });
+  }
+  showDiagnostic(issue_detected);
+}
+</script>
+
+{% endif %}
+<!-- End ReCharge Debug -->

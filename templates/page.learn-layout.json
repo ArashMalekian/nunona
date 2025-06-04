@@ -1,0 +1,461 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1636661805147ef783": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "<h1 style=\"text-align:left;\">Expertly Crafted Nutrition Rooted in Science</h1>",
+        "text": "<p>Snacks Today for Mama, Lifelong Health for Baby</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Nunona-Web-Learn-Header.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_bg": "#fbd7de"
+      }
+    },
+    "16366618028885594d": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Real Food Nutrition for New Mamas",
+        "title_size": 34,
+        "heading_h1": true,
+        "text": "<p>There is an evidence-based connection between maternal nutrition and the profile of breastmilk. That's why our recipes are expertly crafted by scientists to provide you with essential nutrients through real food that support lactation, enhance baby's nutrition through breastfeeding, and nourish your postpartum recovery. </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "16366627049da12bf0": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Only What You Need and Nothing Else",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>We handpick ingredients that supply essential nutrients.<br/>Our core functional ingredients are: </p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "1636662652c1e941bf": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "1636662652c1e941bf-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-Oats.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Oats</strong></p><p>Contain soluble fiber to help regulate<br/>blood sugar levels, which supports<br/>your mood & energy levels.<br/><br/>P.S. Our oats are gluten free!</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1636662652c1e941bf-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-Nutbutters.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Nut Butters</strong></p><p>Provide healthy fats & a<br/>good source of protein to help<br/>you recover post-birth.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1636662652c1e941bf-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-Dates.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Dates</strong></p><p>High in fiber for the comfort<br/>of your bowels and act as<br/>a natural sweetener.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "60981cb1-d83d-4e71-af02-01b6053e8053": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-Flaxseeds.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Flaxseeds</strong></p><p>High in plant-based<br/>Omega-3 fatty acids to<br/>help build baby’s brain.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "f22011de-c2ac-4c0f-869c-3707fd9c7a52": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Nunona-Web-Core-Ingredient-BrewersYeast.jpg",
+            "image_width": 300,
+            "title": "",
+            "text": "<p><strong>Brewer's Yeast</strong></p><p>Provides protein, iron and<br/>B Vitamins for cell creation<br/>& brain development.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636662652c1e941bf-0",
+        "1636662652c1e941bf-1",
+        "1636662652c1e941bf-2",
+        "60981cb1-d83d-4e71-af02-01b6053e8053",
+        "f22011de-c2ac-4c0f-869c-3707fd9c7a52"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "alternate_bg_color": false,
+        "full_width": false
+      }
+    },
+    "1636662833c8d77dd1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 120,
+        "button_label": "Build a Bundle",
+        "button_link": "shopify://collections/build-a-bundle",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "1636662219067fa9bf": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Snacktime Nutrition for a Lifetime of Health",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Establishing the nutritional building blocks for brain development, healthy growth and a strong immune system starts long before babies take their first bite of food. In fact, nutrition during the first 1,000 days - from conception until two years of age - can have lifelong impacts on a baby's health.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": false,
+        "color_bg": "#fbd7de"
+      }
+    },
+    "163666222254d87d5a": {
+      "type": "slideshow",
+      "blocks": {
+        "88bf88c6-59e1-409d-9f87-0f0320736329": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Slider-Mom_778d7753-2127-4110-84f2-e1f2f09bb6bd.jpg",
+            "mobile_image": "shopify://shop_images/Nunona-Web-Ingredients.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Healthy Babies Start With Healthy Mamas",
+            "title_size": 36,
+            "heading_h1": false,
+            "text": "<p>Our carefully crafted snacks are made with organic, plant-based whole food ingredients that supply essential nutrients to help nourish new mamas & babas.<br/><br/>Our flavors come directly from REAL superfoods. </p><p>Scroll through to check out their benefits!</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--left position--vcenter"
+          }
+        },
+        "163666222254d87d5a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Cocoa_0dbd4c97-ea2a-4991-9048-11310aa11571.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 20,
+            "heading_h1": false,
+            "text": "<p><strong>COCOA</strong><br/>Anti-inflammatory, contains antioxidants &<br/>helps to modulate intestinal microbiota.</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        },
+        "71821c21-f0b0-4ffa-8097-6c952b02ad48": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Coconut.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "heading_h1": false,
+            "text": "<p><strong>COCONUT</strong></p><p>Nutrient dense and high in fiber &<br/>antioxidants and cell protection benefits.</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        },
+        "163666222254d87d5a-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Lemon.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "heading_h1": false,
+            "text": "<p><strong>LEMON</strong></p><p>Helps to energize and uplift.</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        },
+        "3a2da6d7-157b-42ed-948c-b72835637fa7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nunona-Web-Ingredients-Matcha.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "heading_h1": false,
+            "text": "<p><strong>MATCHA</strong></p><p>Antioxidant and anti-inflammatory & potential<br/>benefits on physical and mental health.</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "overlay_position": "position--left position--bottom"
+          }
+        }
+      },
+      "block_order": [
+        "88bf88c6-59e1-409d-9f87-0f0320736329",
+        "163666222254d87d5a-0",
+        "71821c21-f0b0-4ffa-8097-6c952b02ad48",
+        "163666222254d87d5a-1",
+        "3a2da6d7-157b-42ed-948c-b72835637fa7"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 780,
+        "height_mobile": 600,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "slide_transition": "slide",
+        "slide_navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 3
+      }
+    },
+    "1636662282b243b078": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "A Healthy Alternative to Lactation Cookies",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Lactation cookies crumble under scrutiny. Claims of increased breastmilk production aren’t evidence based and their formulations are far from healthy. Nunona’s science-backed snacks provide real ingredients which nourish Mamas and help create healthier humans. We carefully select healthy ingredients and include only what you need.</p>",
+        "image_width": 120,
+        "button_label": "Learn More",
+        "button_link": "shopify://pages/betterthanlactationcookies",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "color_bg": ""
+      }
+    },
+    "163666256941793877": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Nunona-Web-Chart_d3472698-5ac6-405b-8061-93691f1a5e05.jpg",
+        "height": "natural",
+        "height_desktop": 400,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": false,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "1636663209bd746922": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Don’t Be Fooled By Lactation Cookies, You Deserve A Better Bite",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Most lactation cookies are heavily processed and full of sugar, artificial ingredients & empty promises. There is no evidence that specific food can increase breastmilk production. However, there is evidence that whole foods with essential nutrients can improve the profile of breastmilk. That's why Nunona is made with whole food, plant-based, clean ingredients that are carefully chosen to provide essential nutrients, so you can be sure you are giving the very best to your baby.</p>",
+        "image_width": 120,
+        "button_label": "Try the beter bite",
+        "button_link": "shopify://collections/build-a-bundle",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "1636663302280f666e": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Convenient Nutritional Support for New Moms",
+        "text": "<p>The science is clear that the quality of your diet impacts the profile of your breastmilk. Here are some other ways Mama Balls can support new moms with breastfeeding: <br/>•  Decrease stress to support profile of breastmilk<br/>•  Provide extra energy required for breastfeeding<br/>•  Help to regulate blood sugar levels<br/>•  Help to relieve constipation<br/>•  Come in a convenient box so you remember to eat! </p>",
+        "button_label": "Get nutrition support you need",
+        "button_link": "shopify://collections/build-a-bundle",
+        "text_alignment": "left",
+        "text_width": 70,
+        "button_style": "primary",
+        "image": "shopify://shop_images/Nunona-Web-Stacked-Boxes.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_bg": "#fbd7de"
+      }
+    },
+    "1636663637bd558cf7": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Born to Nourish Mamas & Their Babas",
+        "text": "<p>As a former head of global marketing and innovation at pharmaceutical and nutritional companies, I knew the depth the infant nutrition industry goes to in order to support babies, but I was shocked by the lack of nutritional support for moms. When I began my own motherhood journey, I quickly realized the products I wanted didn’t exist and the market wasn't meeting the needs of the modern mom.<br/><br/>Knowing the importance of maternal nutrition and the direct impact it has on a baby’s health, I decided to make my own nutrient-packed snacks from organic plant-based, whole food ingredients without the use of synthetic supplements because this is better for our bodies and for our planet. <br/><br/>One of the best gifts you can give your child is a lifetime of health. That’s why I am on a mission to help all mamas on their journey. Nunona is dedicated to empowering you with the nutrition you need to create healthier humans for a healthier planet.</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Nunona-Web-Krista_fcf6c2f0-a7c2-4299-9bcf-ed3b90dccf0e.jpg",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_bg": ""
+      }
+    },
+    "163666374763ff9eca": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "A Team of Moms & Scientists with Knowledge, Passion & Purpose",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "<p>Nunona Founder Krista Maas de Villiers and Head of Science Louise Gottsche have over 20 years of combined experience in the infant nutrition industry. Their scientific backgrounds, industry knowledge, and access to the latest research & experts in the field led to the creation of a product that supports women with breastfeeding and postpartum recovery. The team works with passion and purpose to support and empower women to build a healthier generation.</p>",
+        "image_width": 120,
+        "button_label": "Discover scientific solutions",
+        "button_link": "shopify://collections/build-a-bundle",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": true,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    },
+    "1636663750425e9eaf": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Creating Healthier Humans for a Healthier Planet",
+        "text": "<p>There may not be a science to being a mom, but there is science behind health. We are all on this journey together and by nurturing minds, nourishing bodies and living a sustainable lifestyle with plant-based foods to reduce our impact on the environment, we will be able to collectively create a generation of healthier humans for a healthier planet. </p>",
+        "button_label": "Shop Mama Collection",
+        "button_link": "shopify://collections/build-a-bundle",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "primary",
+        "image": "shopify://shop_images/Nunona-Web-nunona_cc2e28de-df75-49bd-9715-59c245ae6541.png",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "color_bg": "#fbd7de"
+      }
+    },
+    "163666412542173a10": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Healthy Babies Start with Healthy Mamas",
+        "title_size": 34,
+        "heading_h1": false,
+        "text": "",
+        "image_width": 120,
+        "button_label": "Get Started Now",
+        "button_link": "shopify://collections/build-a-bundle",
+        "button_style": "primary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_bg": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1636661805147ef783",
+    "16366618028885594d",
+    "16366627049da12bf0",
+    "1636662652c1e941bf",
+    "1636662833c8d77dd1",
+    "1636662219067fa9bf",
+    "163666222254d87d5a",
+    "1636662282b243b078",
+    "163666256941793877",
+    "1636663209bd746922",
+    "1636663302280f666e",
+    "1636663637bd558cf7",
+    "163666374763ff9eca",
+    "1636663750425e9eaf",
+    "163666412542173a10"
+  ]
+}

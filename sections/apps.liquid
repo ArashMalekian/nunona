@@ -1,0 +1,39 @@
+<div class="section-spacing {% unless section.settings.skip_container %}container{% endunless %}" data-cc-animate>
+  <div class="section-heading section-heading--with-spacing"
+    style="justify-content: center;">
+    <h2 class="h2">{{ section.settings.title }}</h2>
+  </div>
+  {%- for block in section.blocks -%}
+    {% render block %}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Apps",
+  "class": "sc--app",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "Section Title"
+    },
+    {
+      "type": "checkbox",
+      "id": "skip_container",
+      "label": "Full page width",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Apps"
+    }
+  ]
+}
+{% endschema %}

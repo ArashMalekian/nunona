@@ -1,0 +1,568 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_n9YztU": {
+      "type": "image-with-text",
+      "custom_css": [],
+      "settings": {
+        "subheading": "★★★★★ (5.0)",
+        "title": "Nourish Your Postpartum Journey with Nunona's <em class=\"ff-libre-baskerville-regular-italic\">Mama Bites </em>",
+        "title_size": 50,
+        "title_width": 12,
+        "text": "",
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-4-boxes?product=bundle&step=1",
+        "text_below": "<p>Free Shipping*  |  30-Day Money Back Guarantee</p>",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "secondary",
+        "image": "shopify://shop_images/Nunona-Hands-Web-7.png",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "alt",
+        "color_bg": "#fef5e9",
+        "color_text": ""
+      }
+    },
+    "scrolling_banner_hprnNz": {
+      "type": "scrolling-banner",
+      "settings": {
+        "text": "Get your first box free with code: <u>FIRSTBOXFREE</u>",
+        "link": "",
+        "text_size": 20,
+        "line_height": 3,
+        "speed": 4,
+        "direction": "left",
+        "font": "heading",
+        "space_x": true,
+        "stencil_all_text": false,
+        "stencil_text": "",
+        "overlay_style_tint": false,
+        "color_scheme": "custom",
+        "color_bg": "#e0fa00",
+        "color_text": "#211f20"
+      }
+    },
+    "16364782805b5cd846": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Embrace motherhood with confidence. Our dietitian-developed, organic Mama Bites provide essential nutrients to support your postpartum recovery and breastfeeding journey.",
+        "title_size": 30,
+        "title_width": 40,
+        "heading_h1": false,
+        "text": "",
+        "image": "shopify://shop_images/Flavor-IMG.png",
+        "image_width": 250,
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-4-boxes?product=bundle&step=1",
+        "button_style": "secondary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "no_padding_top": true,
+        "color_scheme": "custom",
+        "color_bg": "#fef5e9",
+        "color_text": ""
+      }
+    },
+    "custom_liquid_te4QYe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "hr {border-color: #211f20; background-color: #ffffff;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<hr />"
+      }
+    },
+    "rich_text_qqQpFA": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Why Choose Nunona's Mama Bites?",
+        "title_size": 34,
+        "title_width": 40,
+        "heading_h1": false,
+        "text": "",
+        "image": "shopify://shop_images/Untitled_design_20.png",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": true,
+        "no_padding_top": false,
+        "color_scheme": "custom",
+        "color_bg": "#ffffff",
+        "color_text": ""
+      }
+    },
+    "text_columns_with_images_KRLArp": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_yhXLci": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-04T164203.444.png",
+            "image_width": 250,
+            "title": "Enhanced Breast Milk Production",
+            "text": "<p>Each serving delivers the additional 500 calories recommended for exclusive breastfeeding, helping to maintain and boost your milk supply.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_HNNRty": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-05T183751.796.png",
+            "image_width": 250,
+            "title": "Comprehensive Nutrition",
+            "text": "<p>Packed with 27 whole-food, organic micronutrients, our bites ensure both you and your baby receive vital nourishment.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_DVxwMp": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Large-Square-Image_05.jpg",
+            "image_width": 250,
+            "title": "Superior to Lactation Cookies",
+            "text": "<p>Unlike traditional lactation cookies, Mama Bites offer balanced macronutrients without excessive sugars, promoting sustained energy and optimal health.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yhXLci",
+        "text_block_HNNRty",
+        "text_block_DVxwMp"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "bg_color": "#ffffff",
+        "text_color": "#231f20",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "text_columns_class": ""
+      }
+    },
+    "custom_liquid_4PJYfb": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "hr {border-color: #211f20; background-color: #ffffff;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<hr />"
+      }
+    },
+    "image_with_text_WGkg7z": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".button {background: #e6fe55; border: none;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Key Benefits",
+        "title_size": 36,
+        "title_width": 12,
+        "text": "<p></p><ul><li><strong>Postpartum Recovery:</strong> Ingredients rich in healthy fats and proteins aid in tissue repair, hormone stability and support your energy levels. Plus, our comprehensive blend of micronutrients help replenish your nutrient stores.</li><li><strong>Brain Development for Baby:</strong> Plant-based Omega-3s, including non-GMO microalgae oil, support your baby's cognitive growth.</li><li><strong>Digestive Wellness:</strong> High-fiber components like dates and gluten-free oats promote healthy digestion for both mom and baby.</li></ul>",
+        "list_icon": "shopify://shop_images/nunona-tick-black.svg",
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-4-boxes?product=bundle&step=1",
+        "text_below": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "secondary",
+        "image": "shopify://shop_images/Large-Square-Image_01.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "custom",
+        "color_bg": "#fef5e9",
+        "color_text": ""
+      }
+    },
+    "slideshow_MHVich": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mXfE7i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HeroBanner_DWeb-Spinach.jpg",
+            "mobile_image": "shopify://shop_images/HeroBanner_MWeb-Spinach.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "image_mXfE7i"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "max_width": false,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "1660843333a4944878": {
+      "type": "testimonials",
+      "blocks": {
+        "16608433332c9fda66-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>\"Exclusive breastfeeding was hard, I always felt my energy was gone, and keeping up with baby's schedule was challenging - until I found Nunona. Nunona helps me stay nourished throughout the day, and helps make exclusive breastfeeding that much easier!\" - Mackenzie, Nunona Mama & Customer</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Asset_2_1.png",
+            "image1_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "16608433332c9fda66-0"
+      ],
+      "custom_css": [
+        "svg rect {fill: #ebfc72;}"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "Recommended by Experts, Loved By Moms",
+        "button_style": "primary",
+        "img_max_width": 100,
+        "image_position": "top",
+        "slides_per_view": 1,
+        "slides_per_view_desk": 1,
+        "show_arrows": true,
+        "auto_play": false,
+        "alternate_bg_color": false,
+        "testimonials_class": ""
+      }
+    },
+    "testimonials_jn7c4K": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_g3Thc3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "<b>Nut Butter</b>",
+            "text": "<p>Provide healthy fats and proteins to aid postpartum recovery.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Nunona-Web-Core-Ingredient-Nutbutters.jpg",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_yDeNWc": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "<b>Oats</b>",
+            "text": "<p>Rich in soluble fiber to help regulate blood sugar levels, supporting mood and energy.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Nunona-Web-Core-Ingredient-Oats.jpg",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_Tp89FK": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "<b>Dates</b>",
+            "text": "<p>Natural sweetness high in fiber, promoting digestive comfort.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Nunona-Web-Core-Ingredient-Dates.jpg",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_N8yeCD": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "<b>Flaxseeds</b>",
+            "text": "<p>A plant-based source of Omega-3 fatty acids, essential for baby's brain development.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Nunona-Web-Core-Ingredient-Flaxseeds.jpg",
+            "image1_caption": ""
+          }
+        },
+        "testimonial_jLA9rW": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "title": "<b>Algae Oil</b>",
+            "text": "<p>A vegan source of Omega-3s that supports cognitive development.</p>",
+            "button_label": "",
+            "link": "",
+            "image1": "shopify://shop_images/Oil.jpg",
+            "image1_caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_g3Thc3",
+        "testimonial_yDeNWc",
+        "testimonial_Tp89FK",
+        "testimonial_N8yeCD",
+        "testimonial_jLA9rW"
+      ],
+      "custom_css": [
+        "svg rect {fill: #ebfc72;}"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "Real Ingredients for Real Moms",
+        "button_style": "primary",
+        "img_max_width": 300,
+        "image_position": "top",
+        "slides_per_view": 1,
+        "slides_per_view_desk": 3,
+        "show_arrows": true,
+        "auto_play": false,
+        "alternate_bg_color": false,
+        "testimonials_class": ""
+      }
+    },
+    "custom_liquid_PeBGqx": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "hr {border-color: #211f20; background-color: #ffffff;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<hr />"
+      }
+    },
+    "accordions_fYVCMD": {
+      "type": "accordions",
+      "blocks": {
+        "accordion_Cpy9CC": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Can Nunona bites replace my prenatal pills?",
+            "text": "<p><em>Absolutely.</em> Our bites are designed to fully replace traditional prenatal vitamins, providing comprehensive nutrition from real food sources.</p>",
+            "open": false
+          }
+        },
+        "accordion_Hxzweg": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How do you ensure product safety and quality?",
+            "text": "<p>Every batch undergoes third-party testing, including heavy metal screening, to guarantee safety and purity.</p>",
+            "open": false
+          }
+        },
+        "accordion_AF3XBn": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Are these bites suitable for those with gluten sensitivities?",
+            "text": "<p>Yes, our bites are made with certified gluten-free oats, ensuring they're safe for those with gluten sensitivities.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_Cpy9CC",
+        "accordion_Hxzweg",
+        "accordion_AF3XBn"
+      ],
+      "disabled": true,
+      "settings": {
+        "pre_title": "",
+        "title": "Frequently Asked Questions",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "16608462759bc4072a": {
+      "type": "rich-text",
+      "custom_css": [
+        ".button {background: #e6fe55; border: none;}"
+      ],
+      "settings": {
+        "subheading": "Special Offer",
+        "title": "Get Your First Box Free",
+        "title_size": 40,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>For a limited time, get your first box free ($30 value) with code: FIRSTBOXFREE. Join the Nunona program today and commit to nourishing yourself and your baby naturally.</p>",
+        "image_width": 250,
+        "button_label": "",
+        "button_link": "shopify://products/mama-balls-4-boxes",
+        "button_style": "secondary",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "no_padding_top": false,
+        "color_scheme": "custom",
+        "color_bg": "#e0fa00",
+        "color_text": ""
+      }
+    },
+    "slideshow_DcpTLV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_nMPUbE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HeroBanner_DWeb-Movement.jpg",
+            "mobile_image": "shopify://shop_images/HeroBanner_MWeb-Movement.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "image_nMPUbE"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "max_width": false,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "image_with_text_BkarzT": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "★★★★★ (5.0)",
+        "title": "Nunona <br> <em class=\"ff-libre-baskerville-regular-italic\">Mama Bites Pre+Postnatal</em>",
+        "title_size": 44,
+        "title_width": 12,
+        "text": "<p>A delicious real food prenatal vitamin and postnatal lactation bite. Completely replaces the need for synthetic pills and processed lactation cookies. Designed to nourish mom + baby from conception and pregnancy through postpartum and breastfeeding. 1 box = 1 week supply (28 mama bites).</p><ul><li>Whole Food Plant Based</li><li>Organic Ingredients</li><li>No Synthetic Supplements</li></ul>",
+        "list_icon": "shopify://shop_images/nunona-tick-black.svg",
+        "button_label": "Get Started",
+        "button_link": "https://www.nunonalife.com/products/mama-balls-4-boxes?product=bundle&step=1",
+        "text_below": "<p>Free Shipping*  |  30-Day Money Back Guarantee</p>",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "secondary",
+        "image": "shopify://shop_images/Large-Square-Image_02.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "custom",
+        "color_bg": "#fef5e9",
+        "color_text": ""
+      }
+    },
+    "custom_featured_product_e7iKe7": {
+      "type": "custom-featured-product",
+      "disabled": true,
+      "custom_css": [
+        ".button {border: none;}"
+      ],
+      "settings": {
+        "custom_product": "mama-balls-4-boxes",
+        "custom_product_subtitle": "Essential nutrition for postpartum",
+        "custom_product_btn_text": "Choose My Plan",
+        "custom_product_url": "https://www.nunonalife.com/products/mama-balls-4-boxes?product=bundle&step=1",
+        "list_icon": "shopify://shop_images/nunona-tick-black.svg",
+        "section_bg_color": "#ffffff"
+      }
+    },
+    "1664943344104993bf": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "skip_container": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_n9YztU",
+    "scrolling_banner_hprnNz",
+    "16364782805b5cd846",
+    "custom_liquid_te4QYe",
+    "rich_text_qqQpFA",
+    "text_columns_with_images_KRLArp",
+    "custom_liquid_4PJYfb",
+    "image_with_text_WGkg7z",
+    "slideshow_MHVich",
+    "1660843333a4944878",
+    "testimonials_jn7c4K",
+    "custom_liquid_PeBGqx",
+    "accordions_fYVCMD",
+    "16608462759bc4072a",
+    "slideshow_DcpTLV",
+    "image_with_text_BkarzT",
+    "custom_featured_product_e7iKe7",
+    "1664943344104993bf"
+  ]
+}

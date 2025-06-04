@@ -1,0 +1,245 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_yktEbD": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Real food. \nBacked by Science. \nMade <em class=\"ff-libre-baskerville-regular-italic\">for moms. </em>",
+        "title_size": 48,
+        "title_width": 12,
+        "text": "<p>As a mom, I couldn't find the right nutrition for pregnancy and postpartum - so I created it. </p>",
+        "button_label": "",
+        "button_link": "",
+        "text_below": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Square-Image_02.jpg",
+        "image_width": 75,
+        "image_position": "right",
+        "media_size": "contain",
+        "color_scheme": "alt",
+        "color_bg": "#3a503a",
+        "color_text": ""
+      }
+    },
+    "image_with_text_overlay_FmGDxK": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/DWeb_HandBanner.jpg",
+        "height": "natural",
+        "height_desktop": 250,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 70,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "text_below": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false
+      }
+    },
+    "rich_text_dwhV3t": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Our Story",
+        "title_size": 48,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "<p>Nunona was born from a simple but powerful belief: your baby’s nutrition shouldn’t be synthetic.</p><p>As a nutrition expert, I spent years developing products for babies around the world. But when I became pregnant, my world changed. I scrutinized every ingredient I put in my body, swapping out everything from cleaning supplies to skincare. Yet, when I searched for a prenatal I could trust, all I found were synthetic supplements and ultra-processed formulas.</p><p>The science was clear. The evidence was there. But the products didn’t exist.</p><p>I wanted something better - organic, whole-food, plant-based nutrition that actually nourished me and my baby. </p><p>So, I created it.</p><p>Welcome to Nunona—real food for motherhood, made to be delicious, convenient, and truly nourishing. </p><p>Join the movement. Let's redefine maternal nutrition - together. </p>",
+        "image": "shopify://shop_images/Flavor-IMG-5.png",
+        "image_width": 270,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "no_padding_top": false,
+        "color_scheme": "custom",
+        "color_bg": "#ffffff",
+        "color_text": ""
+      }
+    },
+    "text_columns_with_images_nVqrYT": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_Egd6dM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Logo-Meaning.png",
+            "image_width": 200,
+            "title": "Nurture",
+            "text": "<p>I wanted a product I could trust when I didn't know what I could safely eat, or didn't have time to prepare healthy meals. Nunona's pill box design is here to remind you to take care of yourself - even when your focus is on your baby.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_qDxgWt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Logo-Meaning-1.png",
+            "image_width": 200,
+            "title": "Nourish",
+            "text": "<p>During pregnancy and postpartum, I wanted to ensure I was fueling my body with the right nutrients for both myself and my baby - without turning to synthetic supplements or heavily processed products.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_cE9eLV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Logo-Meaning-2.png",
+            "image_width": 200,
+            "title": "Nature",
+            "text": "<p>Our commitment to creating healthier humans for a healthier planet comes from a deep care for the world we're leaving behind. That's why we've chosen to use organic plant-based ingredients, knowing that every small step we take today helps nurture a better nature for our children. </p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Egd6dM",
+        "text_block_qDxgWt",
+        "text_block_cE9eLV"
+      ],
+      "settings": {
+        "pre_heading": "",
+        "title": "Our Brand Pillars",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "media_shape": "natural",
+        "bg_color": "#fef5e9",
+        "text_color": "#231f20",
+        "alternate_bg_color": false,
+        "full_width": false,
+        "text_columns_class": ""
+      }
+    },
+    "image_with_text_overlay_endbmz": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Image-Banner_02.jpg",
+        "height": "fixed",
+        "height_desktop": 350,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "Join Other Moms",
+        "title_size": 70,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "text_below": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "slideshow_HUAAFF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NVrCrQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TextBanner_DWeb.jpg",
+            "mobile_image": "shopify://shop_images/TextBanner_MWeb.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter",
+            "overlay_position_mobile": "position--hcenter-xs position--vcenter-xs"
+          }
+        }
+      },
+      "block_order": [
+        "image_NVrCrQ"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": false,
+        "max_width": false,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "image_with_text_TAjH7F": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".button {background: #e6fe55; border: none;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Build Your Bundle",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>Get your first box FREE when you subscribe today!</p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/mama-balls-4-boxes",
+        "text_below": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/Large-Square-Image_01.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "alt",
+        "color_bg": "#a0669d",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_yktEbD",
+    "image_with_text_overlay_FmGDxK",
+    "rich_text_dwhV3t",
+    "text_columns_with_images_nVqrYT",
+    "image_with_text_overlay_endbmz",
+    "slideshow_HUAAFF",
+    "image_with_text_TAjH7F"
+  ]
+}
