@@ -8029,27 +8029,115 @@ style.textContent = `
 `;
 document.head.insertBefore(style, document.head.firstChild);
 
+
+
 function init() {
-  formatProductTitles();
-  
-  if (typeof Shopify !== 'undefined') {
-    document.addEventListener('shopify:section:load', formatProductTitles);
+            const MAX_SELECTION = 4;
+
+            const getStickyContainer = () => document.querySelector('.status-bar-sign-up');
+
+            const updateStickyTitle = () => {
+                requestAnimationFrame(() => {
+                    const container = getStickyContainer();
+                    if (!container) return;
+
+                    const stickyTitle = container.querySelector('.rb-btn');                    
+                    const selectedText = container.querySelector('.thl-copy');
+                    if (!stickyTitle || !selectedText) return;
+
+                    const match = selectedText.textContent.match(/(\d+)\s*selected/i);
+                    const count = match ? parseInt(match[1], 10) : 0;
+
+                    if (count === 0) {
+                        stickyTitle.textContent = `Choose ${MAX_SELECTION} Boxes`;
+                    } else if (count < MAX_SELECTION) {
+                        stickyTitle.textContent = `${count}/${MAX_SELECTION} Selected (continue to ${MAX_SELECTION}/${MAX_SELECTION})`;
+                    } else {
+                        stickyTitle.textContent = `${MAX_SELECTION}/${MAX_SELECTION} Selected - Check out`;
+                    }
+
+                });
+            };
+             setTimeout(() => {
+                updateStickyTitle();
+            }, 30);
+
+            // OPTIONAL: re-run logic if Add button is clicked and bundle re-renders
+            document.addEventListener('click', (e) => {
+                if (e.target.closest('[data-element="add-button"]')) {
+                    setTimeout(() => {
+                        updateStickyTitle();
+                        startObserver();
+                    }, 1500);
+                }
+            });
+        }
+
+function waitForElement(selector, callback) {
+  if (document.querySelector(selector)) {
+    callback();
+  } else {
+    setTimeout(() => waitForElement(selector, callback), 100);
   }
-  
-  if (window.MutationObserver) {
-    new MutationObserver(formatProductTitles)
-      .observe(document.body, {childList: true, subtree: true});
-  }
-  
-  setTimeout(formatProductTitles, 500);
-  
-  document.addEventListener('DOMContentLoaded', formatProductTitles);
-  window.addEventListener('load', formatProductTitles);
 }
 
-if (document.readyState === 'complete') {
-  init();
-} else {
-  document.addEventListener('DOMContentLoaded', init);
-  window.addEventListener('load', init);
+document.addEventListener('click', function(event) {
+  if (event.target.closest('button.rb-btn-qty-plus')) {
+    return;
+  }
+  
+});
+
+waitForElement('button.rb-btn-qty-plus', function() {
+  document.querySelectorAll('button.rb-btn-qty-plus').forEach(btn => {
+    btn.addEventListener('click', function() {
+      init()
+    });
+  });
+});
+
+function waitForElement(selector, callback) {
+  if (document.querySelector(selector)) {
+    callback();
+  } else {
+    setTimeout(() => waitForElement(selector, callback), 100);
+  }
 }
+
+document.addEventListener('click', function(event) {
+  if (event.target.closest('button.rb-btn-qty-minus')) {
+    return;
+  }
+  
+});
+
+waitForElement('button.rb-btn-qty-minus', function() {
+  document.querySelectorAll('button.rb-btn-qty-minus').forEach(btn => {
+    btn.addEventListener('click', function() {
+      init()
+    });
+  });
+});
+
+function redirectToCheckout() {
+  window.location.href = '/checkout';
+
+}
+
+// document.addEventListener('DOMContentLoaded', function(e) {
+//       e.preventDefault();
+//   e.stopPropagation();
+//   e.stopImmediatePropagation();
+//   const btn = document.querySelector('button.rb-btn.tnowrap');
+//   if (btn) {
+//     btn.addEventListener('click', redirectToCheckout);
+//     btn.addEventListener('touchstart', redirectToCheckout); 
+//     btn.style.cursor = 'pointer'; 
+//   }
+  
+//   document.addEventListener('click', function(e) {
+//     if (e.target.closest('button.rb-btn.tnowrap')) {
+//       redirectToCheckout();
+//     }
+//   });
+// });
