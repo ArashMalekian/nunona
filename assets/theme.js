@@ -7985,3 +7985,78 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+
+function formatProductTitles() {
+  const titles = document.querySelectorAll('p.rb-title[data-v-a381d9]');
+  
+  titles.forEach(title => {
+    if (title._isFormatted) return;
+    
+    const text = title.textContent.trim();
+    const dashIndex = text.indexOf('-');
+    
+    if (dashIndex > -1) {
+      const productName = text.substring(0, dashIndex).trim();
+      const productDetails = text.substring(dashIndex).trim();
+      
+      title.innerHTML = `
+        <span class="product-name">${productName}</span>
+        <span class="product-details">${productDetails}</span>
+      `;
+      
+      title._isFormatted = true;
+    }
+  });
+}
+
+// استایل‌های ضروری را مستقیماً inject می‌کنیم
+const style = document.createElement('style');
+style.textContent = `
+  .product-name {
+    font-weight: bold !important;
+    font-size: 16px !important;
+    margin-right: 5px;
+  }
+  .product-details {
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    color: #666 !important;
+  }
+  p.rb-title[data-v-a381d9] {
+    line-height: 1.4 !important;
+    display: block !important;
+  }
+`;
+document.head.insertBefore(style, document.head.firstChild);
+
+// چهار لایه مختلف برای اطمینان از اجرا
+function init() {
+  formatProductTitles();
+  
+  // 1. برای محتوای داینامیک Shopify
+  if (typeof Shopify !== 'undefined') {
+    document.addEventListener('shopify:section:load', formatProductTitles);
+  }
+  
+  // 2. MutationObserver برای تغییرات DOM
+  if (window.MutationObserver) {
+    new MutationObserver(formatProductTitles)
+      .observe(document.body, {childList: true, subtree: true});
+  }
+  
+  // 3. برای صفحاتی که با تاخیر لود می‌شوند
+  setTimeout(formatProductTitles, 500);
+  
+  // 4. برای AJAX و سایر تغییرات
+  document.addEventListener('DOMContentLoaded', formatProductTitles);
+  window.addEventListener('load', formatProductTitles);
+}
+
+// اجرای اصلی
+if (document.readyState === 'complete') {
+  init();
+} else {
+  document.addEventListener('DOMContentLoaded', init);
+  window.addEventListener('load', init);
+}
