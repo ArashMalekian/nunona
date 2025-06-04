@@ -1,3 +1,4 @@
+
 document.addEventListener('alpine:init', () => {
     Alpine.data('TestimonialsCarousel', () => ({
         $section: null,
@@ -315,40 +316,42 @@ document.addEventListener('alpine:init', () => {
             }
 
             if (am.bundle_option == "2") {
-                $bundles.show();
-                if ($bundles.find('.price-container').length === 0) {
-                    $bundles.prepend(`
-         <style>
-          @media (max-width: 768px) {
-            .mobile-translate {
-              transform: translateY(70px) !important;
-            }
-          }
-          @media (max-width: 320px) {
-            .mobile-translate {
-              transform: translateY(125px) !important;
-            }
-          }
-          @media (max-width: 375px) {
-            .mobile-translate {
-              transform: translateY(115px) !important;
-            }
-            .hello-heading {
-            font-size: 16px;
-            }
-          }
-        </style>
-      <div class="price-container mobile-translate" style="width: 100%; display: flex; justify-content: space-between;   font-family: Libre Baskerville; transform: translateY(80px)">
-        <h3 class="hello-heading" style="color: #211f20">Pick 4 boxes (1 per week) </h3>
-        <h3 class="hello-heading" style="color: #211f20; font-weight: 700;">$28 per box</h3>
-      </div>
-    `);
-                }
-                let pos_top = $bundles.offset().top - document.documentElement.style.getPropertyValue('--nav-height').replace('px', '')
-                window.scrollTo({
-                    top: pos_top,
-                    behavior: 'smooth'
-                });
+    //             $bundles.show();
+    //             if ($bundles.find('.price-container').length === 0) {
+    //                 $bundles.prepend(`
+    //      <style>
+    //       @media (max-width: 768px) {
+    //         .mobile-translate {
+    //           transform: translateY(70px) !important;
+    //         }
+    //       }
+    //       @media (max-width: 320px) {
+    //         .mobile-translate {
+    //           transform: translateY(125px) !important;
+    //         }
+    //       }
+    //       @media (max-width: 375px) {
+    //         .mobile-translate {
+    //           transform: translateY(115px) !important;
+    //         }
+    //         .hello-heading {
+    //         font-size: 16px;
+    //         }
+    //       }
+    //     </style>
+    //   <div class="price-container mobile-translate" style="width: 100%; display: flex; justify-content: space-between;   font-family: Libre Baskerville; transform: translateY(80px)">
+    //     <h3 class="hello-heading" style="color: #211f20">Pick 4 boxes (1 per week) </h3>
+    //     <h3 class="hello-heading" style="color: #211f20; font-weight: 700;">$28 per box</h3>
+    //   </div>
+    // `);
+    //             }
+    //             let pos_top = $bundles.offset().top - document.documentElement.style.getPropertyValue('--nav-height').replace('px', '')
+    //             window.scrollTo({
+    //                 top: pos_top,
+    //                 behavior: 'smooth'
+    //             });
+                window.location.href = "/pages/pick-monthly-flavors";
+
             }
             if (am.bundle_option == "3") {
                 // redirect

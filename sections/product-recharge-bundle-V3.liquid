@@ -179,7 +179,7 @@
             %}
             <div class="product-bundle-btn-wrap choose-your-plan">
               <button
-                data-monthly_product_url="{{ monthly_product_url }}"
+                {% comment %} data-monthly_product_url="{{ monthly_product_url }}" {% endcomment %}
                 @click.prevent="e_PickFlavors($event)"
               >
                 Next: pick your flavors
