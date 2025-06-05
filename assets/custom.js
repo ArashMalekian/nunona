@@ -122,6 +122,50 @@ document.addEventListener('alpine:init', () => {
             let am = this;
             am.cache.$gallery = am.$el.querySelector('.cg-media')
             am.cache.$thumbs = am.$el.querySelector('.cg-media-thumbs')
+        },  
+        InitCarousel() {
+            let am = this;
+            am.$section = am.$el;
+
+            let slides_per_view = am.$section.dataset.slides_per_view;
+            let slides_per_view_desk = am.$section.dataset.slides_per_view_desk;
+            let auto_play = am.$section.dataset.auto_play == 'true';
+            let show_arrows = am.$section.dataset.show_arrows == 'true';
+
+            let sw_config = {
+                initialSlide: 0,
+                autoHeight: true,
+                loop: true,
+                slidesPerView: slides_per_view,
+                spaceBetween: 25,
+                pagination: {
+                    el: am.$section.querySelector('.swiper-pagination'),
+                    type: 'bullets',
+                    clickable: true
+                },
+                speed: 500,
+                breakpoints: {
+                    900: {
+                        slidesPerView: slides_per_view_desk,
+                        slidesPerGroup: slides_per_view_desk
+                    }
+                }
+            };
+
+            if (show_arrows) {
+                sw_config['navigation'] = {
+                    nextEl: am.$section.querySelector('.swiper-button-next'),
+                    prevEl: am.$section.querySelector('.swiper-button-prev'),
+                }
+            }
+
+            if (auto_play) {
+                sw_config['autoplay'] = {
+                    delay: 5000
+                };
+            }
+
+            am.swiper = new Swiper(am.$section, sw_config);
         },
         InitGallery() {
             let am = this;
@@ -364,3 +408,37 @@ document.addEventListener('alpine:init', () => {
 
 // TODO - 
 // Product bundle icons to be changed from metafields.
+function colorStarPaths() {
+  // حالت ۱: انتخاب معمولی
+  let starPaths = document.querySelectorAll('.star-container path');
+  
+  // حالت ۲: اگر SVG از طریق use/symbol لود شده
+  if (starPaths.length === 0) {
+    starPaths = document.querySelectorAll('.star-container svg path');
+  }
+
+  // حالت ۳: اگر fill در CSS قفل شده
+  starPaths.forEach(path => {
+    path.style.setProperty('fill', 'black', 'important');
+    path.setAttribute('fill', 'black'); // برای اطمینان دوگانه
+    path.setAttribute('stroke', 'black'); // برای اطمینان دوگانه
+  });
+
+  // اگر بازهم المان یافت نشد، خطا چاپ کنید
+  if (starPaths.length === 0) {
+    console.error('هیچ المان path با کلاس star-container یافت نشد!');
+  } else {
+    console.log(`تعداد ${starPaths.length} path قرمز شدند.`);
+  }
+}
+
+// اجرا پس از لود DOM
+document.addEventListener('DOMContentLoaded', colorStarPaths);
+
+// اگر SVG دینامیک اضافه میشود:
+new MutationObserver(colorStarPaths).observe(document.body, {
+  childList: true,
+  subtree: true
+});
+
+
